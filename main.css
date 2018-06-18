@@ -127,3 +127,110 @@ button.accordion:hover, button.accordion.is-open {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Testimonial */
+#testimonial{
+	height: 100vh;
+	position: relative;
+}
+.clients-belt{
+	width: 25%;
+	position: relative;
+	float: right;
+	max-height: 5vh;
+}
+@media screen and (max-width: 700px) {
+	.clients-belt {
+		height: 25%;
+		width: 100%;
+		margin-bottom: 50vh;
+		}
+	 #testimonial{
+		 height: 100%;
+	 }
+}
+@media (min-width:750px){
+	.clients-belt {
+		height: 25%;
+		width: 50%;
+		margin-bottom: 50vh;
+		}
+	 #testimonial{
+		 height: 100%;
+	 }
+}
+.client-name{
+	display: block;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.client-title{
+	font-style: normal;
+  /* font-size: 12px; */
+	font-size: 2vh;
+  color: gold;
+	font-weight: bold;
+}
+.client-unit{
+  max-width: 750px;
+  margin: 10px auto;
+  position: relative;
+}
+.client-content{
+	/* font-size: 18px; */
+	font-size: 2.5vh;
+  line-height: 36px;
+  font-weight: 300;
+  margin-top: -10px;
+  position: relative;
+}
+.client-content{
+  padding: 0px 30px;
+  max-width: 500px;
+  margin: 0px auto;
+}
+.client-face{
+  min-width: 180px;
+  text-align: center;
+}
+img{
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.client-name{
+  display: block;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+ #contact-us > h1{
+	text-align: center;
+	margin-top: 5%;
+	font-weight: 800;
+}
+ #contact-us > div > h2{
+	font-weight: 800;
+}
+ #contact-us > div> h3 {
+	margin-top: 10%;
+	font-weight: 800;
+}
+ #contact-us > div > p{
+	margin-top: -2%;
+}
+ #contact-us > div > img{
+	margin-bottom: 3%;
+}
+.methods{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+@media screen and (max-width: 600px) {
+	.methods{
+		width: 100%;
+	}
+}
