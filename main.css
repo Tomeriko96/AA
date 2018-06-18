@@ -96,13 +96,8 @@ img{
   .site-nav > div > div{
     width: 100%;
   }
-  /* #test{
-    background-image: url("images/2_1.jpg");
-  } */
 }
-#test{
-  background-image: url("images/2_1.png");
-}
+
 .centered {
     font-size: 5vh;
     position: absolute;
