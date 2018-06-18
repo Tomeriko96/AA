@@ -8,7 +8,7 @@ a {
 a:hover {
     text-decoration: underline; }
 .wrapper{
-  height: 10%;
+  height: 6vh;
 }
 .site-nav > div > div{
   text-align: center;
@@ -106,8 +106,12 @@ button.accordion:hover, button.accordion.is-open {
 
 /* responsive features */
 @media screen and (max-width: 440px){
-  .site-nav > div > div{
-    width: 100%;
+  .site-nav > div > div {
+    height: 5vh;
+    width: 50%;
+  }
+  .site-nav > div > div > a{
+    font-size: 2vh;
   }
 }
 
@@ -116,7 +120,6 @@ button.accordion:hover, button.accordion.is-open {
 		background-image: url("images/2_2.png");
 	}
 }
-
 .centered {
     font-size: 5vh;
     position: absolute;
