@@ -298,6 +298,7 @@ img{
 	width: 33%;
 	float: left;
 	text-align: center;
+
 }
 @media screen and (max-width: 600px) {
 	.methods{
