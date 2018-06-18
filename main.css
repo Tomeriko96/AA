@@ -62,12 +62,11 @@ button.accordion:hover, button.accordion.is-open {
 }
 #subject{
   color: white;
-  text-align: center;
 }
 
 /* posts */
 .post-header{
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   float: left;
 }
 .post-title{
