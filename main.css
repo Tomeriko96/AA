@@ -66,9 +66,9 @@ button.accordion:hover, button.accordion.is-open {
 
 #test{
 	width: 100%;
-	height: 100vh;
-	background-image: url("images/2.jpg");
-	background-size: cover;
+	/* height: 100vh; */
+	/* background-image: url("images/2.jpg"); */
+	/* background-size: cover; */
 }
 
 /* posts */
@@ -79,7 +79,6 @@ button.accordion:hover, button.accordion.is-open {
 #test > div> img{
   width: 100%;
   background-size: cover;
-  margin-left: 10%;
 }
 .post-title{
   font-size: 5vh;
