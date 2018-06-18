@@ -74,7 +74,7 @@ button.accordion:hover, button.accordion.is-open {
   text-align: center;
 }
 .post-header{
-
+  margin-bottom: 5%
 }
 .post-title{
   font-size: 5vh;
@@ -82,15 +82,17 @@ button.accordion:hover, button.accordion.is-open {
   line-height: 1;
 	margin-top: 5vh;
 }
-.one{
-  margin-top: 5vh;
-}
-.post-content{
 
+.post-content{
+  margin-bottom: 5%;
 }
 .post{
 
 }
 .pagewrapper{
+  max-width: -webkit-calc(800px - (30px * 2));
+  margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
 
 }
