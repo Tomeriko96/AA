@@ -1,8 +1,14 @@
+/* responsive features */
+@media screen and (max-width: 440px){
+  .site-nav > div > div{
+    width: 100%;
+  }
+}
+/* general */
 body{
   background-color: #000;
   color: white;
 }
-
 .wrapper{
   height: 10%;
 }
@@ -13,18 +19,12 @@ body{
   width: 25%;
   background-color: darkblue;
 }
-
-
 .page-link{
   color: #ffffff;
   font-size: 5vh;
 }
 
-@media screen and (max-width: 440px){
-  .site-nav > div > div{
-    width: 100%;
-  }
-}
+/* accordion FAQ */
 button.accordion {
   width: 100%;
   opacity: 0.8;
@@ -38,23 +38,19 @@ button.accordion {
   cursor: pointer;
   transition: background-color 0.2s linear;
 }
-
 button.accordion:after {
   content: "+";
   font-family: "fontawesome";
 	font-size: 2vh;
   float: right;
 }
-
 button.accordion.is-open:after {
   content: "-";
 }
-
 button.accordion:hover, button.accordion.is-open {
   background-color: #2B292E;
   opacity: 1.0;
 }
-
 .accordion-content {
   background-color: white;
   border-left: 1px solid whitesmoke;
@@ -68,11 +64,14 @@ button.accordion:hover, button.accordion.is-open {
 	padding-top: 1%;
   padding-bottom: -1%;
 	font-size: 2vh;
+  color: #000;
 }
 #subject{
   color: white;
   text-align: center;
 }
+
+/* posts */
 .post-header{
   margin-bottom: 5%
 }
@@ -82,12 +81,8 @@ button.accordion:hover, button.accordion.is-open {
   line-height: 1;
 	margin-top: 5vh;
 }
-
 .post-content{
   margin-bottom: 5%;
-}
-.post{
-
 }
 .pagewrapper{
   max-width: -webkit-calc(800px - (30px * 2));
