@@ -19,3 +19,48 @@ body{
     width: 100%;
   }
 }
+button.accordion {
+  width: 100%;
+  opacity: 0.8;
+  background-color: #2B292E;
+  border: 1px solid;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  /* font-size: 18px; */
+	font-size: 2vh;
+  color: darkturquoise;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+button.accordion:after {
+  content: "+";
+  font-family: "fontawesome";
+  /* font-size: 14px; */
+	font-size: 2vh;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: "-";
+}
+
+button.accordion:hover, button.accordion.is-open {
+  background-color: #2B292E;
+  opacity: 1.0;
+}
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+}
+.accordion-text {
+	padding-top: 15px;
+	font-size: 2vh;
+}
