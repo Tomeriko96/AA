@@ -9,11 +9,15 @@ body{
 }
 .site-nav > div > div{
   width: 25%;
+  background-color: darkblue;
 }
+
+
 .page-link{
   color: #ffffff;
   font-size: 5vh;
 }
+
 @media screen and (max-width: 440px){
   .site-nav > div > div{
     width: 100%;
