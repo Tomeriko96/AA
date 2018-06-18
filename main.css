@@ -121,9 +121,9 @@ button.accordion:hover, button.accordion.is-open {
 	}
 }
 .centered {
-    font-size: 5vh;
+    font-size: 6vh;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
