@@ -329,6 +329,9 @@ button.accordion:hover, button.accordion.is-open {
 	max-height: 5vh;
 }
 @media screen and (max-width: 700px) {
+  .innerblock{
+    width: 100%;
+  }
   .blocktest{
   	background-color: white;
   	/* background-image: url(images/tee4.jpg); */
