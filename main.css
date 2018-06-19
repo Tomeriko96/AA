@@ -151,7 +151,6 @@ button:hover{
 	display: block;
 	margin-top: 10%;
 }
-
 /* accordion FAQ */
 button.accordion {
   width: 100%;
@@ -437,7 +436,8 @@ header > ul > ul li a:hover{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: #fff;
-    background: #19c589;
+    /* background: #19c589; */
+    	background: linear-gradient(to right, #ff1a1a, #ff8080) ;
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -456,10 +456,6 @@ input[type=checkbox]:checked ~ #menu{
     header > ul {
         position: static;
         display: none;
-    }
-    /*Create vertical spacing*/
-    header > ul > li {
-        /* margin-bottom: 1px; */
     }
     /*Make all menu links full width*/
     ul li, li a {
