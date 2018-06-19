@@ -130,14 +130,7 @@ button:hover{
 	margin-top: 10%;
 }
 
-.centered {
-    color: #ffffff;
-    font-size: 6vh;
-    font-weight: 900;
-	  margin: 0 auto;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
+
 
 /* accordion FAQ */
 button.accordion {
@@ -227,6 +220,14 @@ button.accordion:hover, button.accordion.is-open {
     background-image: url("images/1.png");
   }
 }
+/* .centered {
+    color: #ffffff;
+    font-size: 6vh;
+    font-weight: 900;
+	  margin: 0 auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
 .centered {
     color: #ffffff;
     font-size: 6vh;
