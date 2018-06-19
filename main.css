@@ -96,9 +96,22 @@ a:hover {
 
 .buttontest{
 	position: relative;
+	padding: 10px;
 	margin: 10px auto;
 	display: block;
+	background: linear-gradient(to right, #ff1a1a, #ff8080) ;
+	border: 0px solid grey;
+	border-radius: 24px;
+	font-weight: 800;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+button:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+}
+
 
 #buttontest1{
 	position: relative;
