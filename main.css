@@ -104,7 +104,8 @@ a:hover {
 	padding: 3%;
 	margin: 10px auto;
 	display: block;
-	background: linear-gradient(to right, #ff1a1a, #ff8080) ;
+	/* background: linear-gradient(to right, #ff1a1a, #ff8080) ; */
+	background: linear-gradient(to right, #000, #231F20) ;
 	border: 1px solid darkgray;
 	border-radius: 3px;
 	font-weight: 800;
@@ -170,8 +171,8 @@ button:hover{
 
 .buttonholder{
 	position: relative;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 15%;
+	margin-bottom: 5%;
 }
 
 #buttontest4{
@@ -182,10 +183,11 @@ button:hover{
 
 .blocktest{
 	background-color: white;
-	background-image: url(images/tee4.jpg);
-	background-size: cover;
+	/* background-image: url(images/tee4.jpg); */
+	/* background-size: cover; */
 	width: 50%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .blocktest2{
 	background-color: white;
@@ -194,13 +196,23 @@ button:hover{
 	margin: 0 auto;
 }
 .blockinfo{
-	background-color: white;
 	width: 40%;
 	padding: 5%;
-	margin-bottom: 5%;
+	padding-bottom: 10%;
 	/* border: 1px solid blue; */
 }
+#test{
+	margin-bottom: 4%;
+}
 
+.innerblock > img{
+	position: relative;
+	float: right;
+	width: 50%;
+	z-index: 0;
+	overflow: hidden;
+	/* border: 1px solid red; */
+}
 
 /* accordion FAQ */
 button.accordion {
@@ -449,7 +461,10 @@ header > ul > li a {
 }
 /*Hover state for top level links*/
 header > ul > li:hover a {
-    background: #19c589;
+    /* background: #19c589; */
+	background: white;
+	color: black;
+	font-weight: bold;
 }
 /*Style for dropdown links*/
 header > ul > li:hover ul a {
