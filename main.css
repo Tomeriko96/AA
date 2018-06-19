@@ -113,11 +113,10 @@ button:hover{
 	cursor: pointer;
 }
 
-
 #buttontest1{
 	position: relative;
 	display: inline-block;
-	margin-top: 18%;
+	margin-top: 12%;
 	left: 10%;
 }
 #buttontest2{
@@ -477,6 +476,9 @@ input[type=checkbox]:checked ~ #menu{
     .show-menu {
         display:block;
     }
+	header > ul > li{
+		border-bottom: 1px solid lightgrey;
+	}
 }
 .video-container {
 position: relative;
