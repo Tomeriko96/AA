@@ -113,32 +113,44 @@ button:hover{
 	cursor: pointer;
 }
 
+#ThreeButtons{
+	margin-top: 12%;
+}
 #buttontest1{
 	position: relative;
 	display: inline-block;
-	margin-top: 12%;
+	/* margin-top: 12%; */
 	left: 10%;
 }
+
+.centered {
+	position: relative;
+}
+.centered > p{
+	margin: 0;
+	text-align: center;
+    color: #ffffff;
+    font-size: 6vh;
+}
+
+#centered {
+	position: relative;
+	display: inline-block;
+	left: 27.5%;
+    font-size: 4vh;
+    text-align: center;
+}
+
 #buttontest2{
 	position: relative;
 	display: inline-block;
-	left: 80%;
+	left: 37.5%;
 }
 #buttontest3{
 	position: relative;
 	display: block;
 	margin-top: 10%;
 }
-
-.centered {
-    color: #ffffff;
-    font-size: 6vh;
-    font-weight: 900;
-	margin: 0 auto;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 
 /* accordion FAQ */
 button.accordion {
@@ -192,11 +204,6 @@ button.accordion:hover, button.accordion.is-open {
   float: left;
 }
 
-#test{
-	/* height: 100vh; */
-	/* background-image: url("images/5.jpg"); */
-	/* background-size: cover; */
-}
 #test2{
 	height: 100vh;
 	background-image: url("images/1.jpg");
@@ -227,20 +234,6 @@ button.accordion:hover, button.accordion.is-open {
   #test2{
     background-image: url("images/1.png");
   }
-}
-.centered {
-    color: #ffffff;
-    font-size: 6vh;
-    font-weight: 900;
-    position: absolute;
-    z-index: -1;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.centered > div{
-  width: 100%;
 }
 
 /* Testimonial */
