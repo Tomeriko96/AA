@@ -194,7 +194,7 @@ button.accordion:hover, button.accordion.is-open {
 }
 
 #test{
-	height: 100vh;
+	/* height: 100vh; */
 	/* background-image: url("images/5.jpg"); */
 	/* background-size: cover; */
 }
@@ -370,6 +370,10 @@ button.accordion:hover, button.accordion.is-open {
   	position: relative;
   	display: block;
   	margin-top: 0;
+  }
+  #ThreeButtons{
+    margin-top: 60vh;
+    margin-bottom: 0;
   }
 	.methods{
 		width: 100%;
