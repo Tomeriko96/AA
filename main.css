@@ -265,6 +265,10 @@ button.accordion:hover, button.accordion.is-open {
   max-width: 100px;
   border-radius: 50%;
 }
+#ideals > div > div >img{
+  max-width: 100px;
+  border-radius: 50%;
+}
 
 .client-name{
   display: block;
@@ -419,7 +423,6 @@ height: 100%;
     width: 100%;
   }
 }
-
 #pitch{
   width: 50%;
 }
