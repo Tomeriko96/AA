@@ -94,6 +94,39 @@ a:hover {
   font-size: 5vh;
 }
 
+.buttontest{
+	position: relative;
+	margin: 10px auto;
+	display: block;
+}
+
+#buttontest1{
+	position: relative;
+	display: inline-block;
+	margin-top: 25%;
+	left: 10%;
+}
+#buttontest2{
+	position: relative;
+	display: inline-block;
+	left: 80%;
+}
+#buttontest3{
+	position: relative;
+	display: block;
+	margin-top: 10%;
+}
+
+.centered {
+    color: #ffffff;
+    font-size: 6vh;
+    font-weight: 900;
+	margin: 0 auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
 /* accordion FAQ */
 button.accordion {
   width: 100%;
@@ -148,8 +181,8 @@ button.accordion:hover, button.accordion.is-open {
 
 #test{
 	height: 100vh;
-	background-image: url("images/5.jpg");
-	background-size: cover;
+	/* background-image: url("images/5.jpg"); */
+	/* background-size: cover; */
 }
 #test2{
 	height: 100vh;
@@ -172,7 +205,7 @@ button.accordion:hover, button.accordion.is-open {
   margin: 0 auto;
   padding-right: 5%;
   padding-left: 5%;
-}
+}2
 
 @media screen and (max-width: 440px) {
 	#test {
