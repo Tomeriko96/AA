@@ -490,13 +490,17 @@ header > ul > li {
     margin-right: 1px;
 }
 /*Style for menu links*/
+label{
+  font-size: 4vh;
+}
 header > ul > li a {
     display:block;
-    min-width:140px;
+    min-width:120px;
     height: 50px;
     text-align: center;
     line-height: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 4vh;
     color: #fff;
     background: #2f3036;
     text-decoration: none;
@@ -550,6 +554,18 @@ header > ul > ul li a:hover{
     padding: 10px 0;
     display: none;
 }
+@media screen and (min-width:1000px){
+  header {
+    position: relative;
+  }
+  header ul {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+
+}
+
 /*Hide checkbox*/
 input[type=checkbox]{
     display: none;
