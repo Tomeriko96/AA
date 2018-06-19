@@ -545,11 +545,10 @@ header{
   height: 10vh;
 }
 #imgh11{
-	  margin-top: -50%;
+	  margin-top: -40%;
     position: relative;
     margin-bottom: 25%;
 	  text-align: center;
 	  color: #ffffff;
 	  font-size: 8vw;
-	  font-family: 'Lobster';
 	}
