@@ -314,7 +314,7 @@ button.accordion:hover, button.accordion.is-open {
 }
  #contact-us > h1{
 	text-align: center;
-	margin-top: 5%;
+	/* margin-top: 5%; */
 	font-weight: 800;
 }
  #contact-us > div > h2{
@@ -508,3 +508,11 @@ header{
     width: 100%;
   }
 }
+#imgh11{
+	  margin-top: -25%;
+    margin-bottom: 25%;
+	  text-align: center;
+	  color: #ffffff;
+	  font-size: 8vw;
+	  font-family: 'Lobster';
+	}
