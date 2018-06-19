@@ -352,6 +352,7 @@ button.accordion:hover, button.accordion.is-open {
   	margin: 0 auto;
   	display: block;
     width: 100%;
+    font-size: 5vh
   }
   #buttontest1{
   	position: relative;
@@ -368,7 +369,6 @@ button.accordion:hover, button.accordion.is-open {
   	position: relative;
   	display: block;
   	margin-top: 0;
-  }
   }
 	.methods{
 		width: 100%;
