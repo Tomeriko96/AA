@@ -133,18 +133,15 @@ button:hover{
     font-size: 6vh;
 }
 
-#centered {
-	position: relative;
-	display: inline-block;
-	left: 27.5%;
-    font-size: 4vh;
-    text-align: center;
+#centered > p {
+    font-size: 3vh;
+	text-align: center;
 }
 
 #buttontest2{
 	position: relative;
 	display: inline-block;
-	left: 37.5%;
+	left: 75%;
 }
 #buttontest3{
 	position: relative;
