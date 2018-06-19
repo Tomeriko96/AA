@@ -191,9 +191,10 @@ button:hover{
 	overflow: hidden;
 }
 .blocktest2{
+  width: 80vw;
 	background-color: white;
 	background-image: url(images/hand.jpg);
-	/* background-size: cover; */
+	background-size: cover;
 	margin: 0 auto;
 }
 .blockinfo{
@@ -204,6 +205,14 @@ button:hover{
 	float: left;
 	/* border: 1px solid blue; */
 }
+/* .blockinfo2{
+	width: 100vw;
+	padding: 5%;
+	padding-bottom: 7.5%;
+	padding-top: 7.5%;
+	float: left;
+	/* border: 1px solid blue; */
+} */
 #test{
 	margin-bottom: 4%;
 }
@@ -320,6 +329,26 @@ button.accordion:hover, button.accordion.is-open {
 	max-height: 5vh;
 }
 @media screen and (max-width: 700px) {
+  .blocktest{
+  	background-color: white;
+  	/* background-image: url(images/tee4.jpg); */
+  	/* background-size: cover; */
+  	width: 100%;
+  	margin: 0 auto;
+  	overflow: hidden;
+  }
+  .blockinfo{
+  	width: 90vw;
+  	padding: 5%;
+  	padding-bottom: 7.5%;
+  	padding-top: 7.5%;
+  	float: left;
+  	/* border: 1px solid blue; */
+  }
+  .buttonholder{
+    width: 80%;
+    margin: 0 auto;
+  }
 	.clients-belt {
 		height: 25%;
 		width: 100%;
