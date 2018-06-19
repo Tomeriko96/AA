@@ -486,9 +486,25 @@ height: 100%;
     width: 100%;
   }
 }
-#pitch{
-  width: 50%;
-}
 header{
   height: 10vh;
+}
+#pitch{
+  width: 50%;
+  float: left;
+}
+#pitch-text{
+  text-align: center;
+
+  float: right;
+  width: 50%;
+  background-color: #dcd4d3;
+}
+@media screen and (max-width: 600px) {
+  #pitch{
+    width: 100%;
+  }
+  #pitch-text{
+    width: 100%;
+  }
 }
