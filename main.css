@@ -69,6 +69,7 @@ body{
   /* background-color: #000; */
   background-color: #231F20;
   color: white;
+  font-family: arial;
 }
 a {
   text-decoration: none; }
