@@ -133,9 +133,21 @@ button:hover{
     font-size: 6vh;
 }
 
-#centered > p {
+.blockinfo > #blocktitle {
     font-size: 3vh;
+	font-weight: 600;
+}
+
+.blockinfo > p {
+	color: black;
 	text-align: center;
+	font-family: arial;
+}
+
+#blocktext{
+	padding-top: 1.5%;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
 }
 
 #buttontest2{
@@ -148,6 +160,34 @@ button:hover{
 	display: block;
 	margin-top: 10%;
 }
+
+.buttonholder{
+	position: relative;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+#buttontest4{
+	position: relative;
+	display: block;
+	margin-top: 5%;
+}
+
+.blocktest{
+	background-color: white;
+	background-image: url(images/tee4.jpg);
+	background-size: cover;
+	width: 50%;
+	margin: 0 auto;
+}
+.blockinfo{
+	background-color: white;
+	width: 40%;
+	padding: 5%;
+	/* border: 1px solid blue; */
+}
+
+
 /* accordion FAQ */
 button.accordion {
   width: 100%;
