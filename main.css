@@ -294,7 +294,11 @@ button.accordion:hover, button.accordion.is-open {
   min-width: 180px;
   text-align: center;
 }
-img{
+.client-face > img{
+  max-width: 100px;
+  border-radius: 50%;
+}
+#ideals > div > div >img{
   max-width: 100px;
   border-radius: 50%;
 }
@@ -446,4 +450,15 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
+}
+@media screen and (max-width : 760px){
+  #buttons > div{
+    width: 100%;
+  }
+}
+#pitch{
+  width: 50%;
+}
+header{
+  height: 10vh;
 }
