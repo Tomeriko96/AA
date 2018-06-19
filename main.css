@@ -261,7 +261,7 @@ button.accordion:hover, button.accordion.is-open {
   min-width: 180px;
   text-align: center;
 }
-img{
+.client-face > img{
   max-width: 100px;
   border-radius: 50%;
 }
@@ -419,12 +419,7 @@ height: 100%;
     width: 100%;
   }
 }
-#pitch{
-	height: 100vh;
-	background-image: url("images/hand.jpg");
-  background-size: cover;
 
-}
 #pitch{
   width: 50%;
 }
