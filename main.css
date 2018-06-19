@@ -234,7 +234,7 @@ button.accordion:hover, button.accordion.is-open {
     font-size: 6vh;
     font-weight: 900;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
