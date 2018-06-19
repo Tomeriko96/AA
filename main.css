@@ -134,11 +134,10 @@ button:hover{
     color: #ffffff;
     font-size: 6vh;
     font-weight: 900;
-	margin: 0 auto;
+	  margin: 0 auto;
     transform: translate(-50%, -50%);
     text-align: center;
 }
-
 
 /* accordion FAQ */
 button.accordion {
@@ -463,10 +462,6 @@ input[type=checkbox]:checked ~ #menu{
     header > ul {
         position: static;
         display: none;
-    }
-    /*Create vertical spacing*/
-    header > ul > li {
-        /* margin-bottom: 1px; */
     }
     /*Make all menu links full width*/
     ul li, li a {
