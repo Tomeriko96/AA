@@ -334,6 +334,29 @@ button.accordion:hover, button.accordion.is-open {
 
 }
 @media screen and (max-width: 600px) {
+  .buttontest{
+    position: relative;
+  	margin: 0 auto;
+  	display: block;
+    width: 100%;
+  }
+  #buttontest1{
+  	position: relative;
+  	display: inline-block;
+  	margin-top: 0;
+  	left: 0;
+  }
+  #buttontest2{
+  	position: relative;
+  	display: inline-block;
+  	left: 0;
+  }
+  #buttontest3{
+  	position: relative;
+  	display: block;
+  	margin-top: 0;
+  }
+  }
 	.methods{
 		width: 100%;
 	}
