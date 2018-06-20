@@ -267,6 +267,10 @@ button:hover{
 	display: none;
 }
 
+.img-responsive.desktop21024, .img-responsive.desktop21440, .img-responsive.mobile2{
+	display: none;
+}
+
 .img-responsive.desktop{
 	/* position: relative; */
 	width: 37vw;
@@ -286,6 +290,8 @@ button:hover{
 	overflow: hidden;
 	/* border: 1px solid red; */
 }
+
+
 
 /* accordion FAQ */
 button.accordion {
@@ -398,6 +404,11 @@ button.accordion:hover, button.accordion.is-open {
 		display: block;
 		width: 59vw;
 	}
+	.img-responsive.desktop21024{
+		display: block;
+		float: right;
+		width: 115vw;
+	}
 }
 
 @media screen and (width: 1024px) and (height: 1366px){
@@ -419,6 +430,11 @@ button.accordion:hover, button.accordion.is-open {
 		display: block;
 		width: 26vw;
 	}
+	.img-responsive.desktop21440{
+		display: block;
+		float: right;
+		width: 80vw;
+	}
 }
 
 @media screen and (min-width: 1420px) and (max-width: 1440px){
@@ -428,6 +444,11 @@ button.accordion:hover, button.accordion.is-open {
 	.img-responsive.desktop1440{
 		display: block;
 		width: 25vw;
+	}
+	.img-responsive.desktop21440{
+		display: block;
+		float: right;
+		width: 70vw;
 	}
 }
 @media screen and (max-width: 1040px) {
@@ -477,6 +498,10 @@ button.accordion:hover, button.accordion.is-open {
 	  display: block;
 	  width: 100%;
   }
+  .img-responsive.desktop21024{
+		display: block;
+		width: 100%;
+	}
   .blocktest{
   	background-color: white;
   	/* background-image: url(images/tee4.jpg); */
