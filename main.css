@@ -336,7 +336,7 @@ button.accordion:hover, button.accordion.is-open {
 	.img-responsive{
 		display: none;
 	}
-	
+
 	.img-responsive.desktop1024{
 		display: block;
 		width: 59vw;
@@ -347,7 +347,7 @@ button.accordion:hover, button.accordion.is-open {
 	.img-responsive{
 		display: none;
 	}
-	
+
 	.img-responsive.desktop1024{
 		display: block;
 		width: 78vw;
@@ -642,7 +642,7 @@ input[type=checkbox]:checked ~ #menu{
   /* header{
     margin-bottom: 50%;
   } */
-  
+
     /*Make dropdown links appear inline*/
     header{
       position:relative;
@@ -696,3 +696,7 @@ header{
 	  color: #ffffff;
 	  font-size: 8vw;
 	}
+#yt{
+  width: 50%;
+  margin: 0 auto;
+}
