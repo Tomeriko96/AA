@@ -291,7 +291,7 @@ button.accordion:hover, button.accordion.is-open {
 	background-size: cover;
 }
 .post-title{
-  font-size: 5vh;
+  font-size: 4vh;
   letter-spacing: -1px;
   line-height: 1;
 	margin-top: 5vh;
@@ -576,7 +576,7 @@ input[type=checkbox]:checked ~ #menu{
 }
 @media screen and (min-width: 760px){
   header{
-    margin-bottom: 20%;
+    margin-bottom: 25%;
   }
 }
 @media screen and (max-width: 700px){
