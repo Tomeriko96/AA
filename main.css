@@ -578,8 +578,9 @@ button.accordion:hover, button.accordion.is-open {
   position: relative;
 }
 .client-content{
-	display: block;
+  display: block;
   font-size: 2vh;
+  width: 75%;
   font-weight: 300;
   margin-top: -10px;
   position: relative;
@@ -645,6 +646,9 @@ button.accordion:hover, button.accordion.is-open {
 @media screen and (max-width: 840px) {
   #contact-us{
     height: 150%;
+  }
+  .centered{
+	  display: none;
   }
   .buttontest{
     position: relative;
