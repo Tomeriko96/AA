@@ -775,7 +775,7 @@ footer {
 }
 
 .svg-icon {
-	background-color: white;
+	/* background-color: white; */
   width: 16px;
   height: 16px;
   display: inline-block;
