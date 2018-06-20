@@ -255,14 +255,14 @@ button:hover{
 	float: right;
 	margin-bottom: -10px;
 	}
-	
+
 .innerblock2{
 	width: 50%;
 	float: left;
 	/* border: 1px solid red; */
 	margin-bottom: -10px;
 	}
-	
+
 .img-responsive.desktop1024, .img-responsive.desktop1440, .img-responsive.mobile{
 	display: none;
 }
@@ -374,7 +374,7 @@ button.accordion:hover, button.accordion.is-open {
 /* Testimonial */
 #testimonial{
 	/* width: 100%; */
-	height: 35vh;
+	height: 60vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -430,8 +430,71 @@ button.accordion:hover, button.accordion.is-open {
 		width: 25vw;
 	}
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1040px) {
+  .clients-belt {
+		/* height: 25%; */
+		width: 100%;
+		/* margin-bottom: 50vh; */
+		}
+  #testimonial{
+    height: 150%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .innerblock2{
+    width: 100%;
+  }
+  .innerblock2 > img{
+    margin: 0 auto;
+  }
+  .blockinfo2{
+    width: 100%;
+    text-align: center;
+  }
+  #blocktext2{
+    width: 90%;
+  }
+  .buttontest2{
+    position: relative;
+  	margin: 0 auto;
+  	display: block;
+    width: 100%;
+    font-size: 5vh
+  }
+  .innerblock{
+    width: 100%;
+  }
+  .innerblock > img{
+    width: 100%;
+  }
+  #hide{
+    display: none;
+  }
+  .img-responsive{
+	  display: none;
+  }
+  .img-responsive.desktop{
+	  display: block;
+	  width: 100%;
+  }
+  .blocktest{
+  	background-color: white;
+  	/* background-image: url(images/tee4.jpg); */
+  	/* background-size: cover; */
+  	width: 100%;
+	margin: 0 auto;
+  	overflow: hidden;
+  }
+  .blockinfo{
+  	width: 90vw;
+  	padding: 5%;
+  	padding-bottom: 7.5%;
+  	padding-top: 7.5%;
+  	float: left;
+  	/* border: 1px solid blue; */
+  }
+}
+@media screen and (max-width: 840px) {
   .innerblock{
     width: 100%;
   }
@@ -458,6 +521,20 @@ button.accordion:hover, button.accordion.is-open {
   	float: left;
   	/* border: 1px solid blue; */
   }
+  .blockinfo2{
+    width: 100%;
+    text-align: center;
+  }
+  #blocktext2{
+    width: 90%;
+  }
+  .buttontest2{
+    position: relative;
+  	margin: 0 auto;
+  	display: block;
+    width: 100%;
+    font-size: 5vh
+  }
   .buttonholder{
     width: 80%;
     margin: 0 auto;
@@ -465,10 +542,10 @@ button.accordion:hover, button.accordion.is-open {
 	.clients-belt {
 		/* height: 25%; */
 		width: 100%;
-		margin-bottom: 50vh;
+		/* margin-bottom: 50vh; */
 		}
 	 #testimonial{
-		 height: 100%;
+		 height: 150%;
 	 }
 }
 /* @media (min-width:750px){ */
@@ -565,7 +642,10 @@ button.accordion:hover, button.accordion.is-open {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 840px) {
+  #contact-us{
+    height: 150%;
+  }
   .buttontest{
     position: relative;
   	margin: 0 auto;
@@ -695,16 +775,7 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
-/* @media screen and (min-width: 760px){
-  header{
-    margin-bottom: 25%;
-  }
-}
-@media screen and (max-width: 700px){
-  header{
-    margin-bottom: 50%;
-  }
-} */
+
 /*Responsive Styles*/
 @media screen and (max-width : 1023px){
   /* header{
@@ -779,20 +850,20 @@ header{
 
 footer {
   border-top: 1px solid #2B292E;
-  padding: 20px 0 10px 0;
+  padding: 5px 0 10px 0;
   /* background-color: white; */
-  
+
 }
 
 .svg-icon {
-	background-color: white;
+	/* background-color: white; */
   width: 16px;
   height: 16px;
   display: inline-block;
   fill: #828282;
   padding-right: 5px;
   vertical-align: text-top; }
-  
+
 #copyright{
 	/* float: left; */
 	font-size: 2vh;
