@@ -70,7 +70,7 @@ body{
   background-color: #231F20;
   color: white;
   font-family: arial;
-  
+
 }
 a {
   text-decoration: none; }
@@ -793,9 +793,16 @@ header > ul > ul li a:hover{
     left: 50%;
     transform: translatex(-50%);
   }
-
 }
-
+@media screen and (min-width:1000px) and (max-width:1040px){
+  header {
+    position: relative;
+  }
+  header ul li {
+    left: 50%;
+    transform: translatex(50%);
+  }
+}
 /*Hide checkbox*/
 input[type=checkbox]{
     display: none;
