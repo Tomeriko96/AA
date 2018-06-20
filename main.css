@@ -254,14 +254,14 @@ button:hover{
 	float: right;
 	margin-bottom: -10px;
 	}
-	
+
 .innerblock2{
 	width: 50%;
 	float: left;
 	/* border: 1px solid red; */
 	margin-bottom: -10px;
 	}
-	
+
 .img-responsive.desktop1024, .img-responsive.desktop1440, .img-responsive.mobile{
 	display: none;
 }
@@ -694,16 +694,7 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
-/* @media screen and (min-width: 760px){
-  header{
-    margin-bottom: 25%;
-  }
-}
-@media screen and (max-width: 700px){
-  header{
-    margin-bottom: 50%;
-  }
-} */
+
 /*Responsive Styles*/
 @media screen and (max-width : 1023px){
   /* header{
@@ -780,7 +771,7 @@ footer {
   border-top: 1px solid #2B292E;
   padding: 20px 0 10px 0;
   /* background-color: white; */
-  
+
 }
 
 .svg-icon {
@@ -791,7 +782,7 @@ footer {
   fill: #828282;
   padding-right: 5px;
   vertical-align: text-top; }
-  
+
 #copyright{
 	/* float: left; */
 	font-size: 2vh;
