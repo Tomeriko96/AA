@@ -574,7 +574,7 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
-@media screen and (min-width: 760px){
+/* @media screen and (min-width: 760px){
   header{
     margin-bottom: 25%;
   }
@@ -583,13 +583,17 @@ input[type=checkbox]:checked ~ #menu{
   header{
     margin-bottom: 50%;
   }
-}
+} */
 /*Responsive Styles*/
 @media screen and (max-width : 900px){
   /* header{
     margin-bottom: 50%;
   } */
     /*Make dropdown links appear inline*/
+    header{
+      position:relative;
+  z-index:50;
+    }
     header > ul {
         position: static;
         display: none;
