@@ -221,15 +221,16 @@ button:hover{
 	float: right;
 	margin-bottom: -10px;
 	}
+.img-responsive.desktop1024, .img-responsive.desktop1440{
+	display: none;
+}
 .innerblock > img{
-	position: relative;
-	width: 100%;
+	/* position: relative; */
+	width: 37vw;
 	/* max-width: 100%; */
-	/* height: 100%; */
-	/* object-fit: cover; */
+	/* width: 100%; */
 	z-index: 0;
 	overflow: hidden;
-	/* margin-bottom: -10px; */
 	/* border: 1px solid red; */
 }
 
@@ -306,7 +307,7 @@ button.accordion:hover, button.accordion.is-open {
   margin: 0 auto;
   padding-right: 5%;
   padding-left: 5%;
-}2
+}
 
 @media screen and (max-width: 440px) {
 	#test {
@@ -328,6 +329,36 @@ button.accordion:hover, button.accordion.is-open {
 	float: right;
 	max-height: 5vh;
 }
+
+@media screen and (max-width: 1024px){
+	.img-responsive{
+		display: none;
+	}
+	.img-responsive.desktop1024{
+		display: block;
+		width: 59vw;
+	}
+}
+
+@media screen and (max-width: 1440px){
+	.img-responsive{
+		display: none;
+	}
+	.img-responsive.desktop1440{
+		display: block;
+		width: 25vw;
+	}
+}
+
+@media only screen and (max-device-width: 480px) {
+  .img-responsive {
+    display: none;
+  }
+  .img-responsive.mobile {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .innerblock{
     width: 100%;
