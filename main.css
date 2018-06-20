@@ -802,6 +802,25 @@ header > ul > ul li a:hover{
     left: 50%;
     transform: translatex(50%);
   }
+  header{
+    position:relative;
+    z-index:50;
+  }
+  header > ul {
+      position: static;
+      display: none;
+  }
+  /*Make all menu links full width*/
+  ul li, li a {
+      width: 100%;
+  }
+  /*Display 'show menu' link*/
+  .show-menu {
+      display:block;
+  }
+header > ul > li{
+  border-bottom: 1px solid lightgrey;
+}
 }
 /*Hide checkbox*/
 input[type=checkbox]{
