@@ -221,10 +221,11 @@ button:hover{
 	float: right;
 	margin-bottom: -10px;
 	}
-.img-responsive.desktop1024, .img-responsive.desktop1440{
+.img-responsive.desktop1024, .img-responsive.desktop1440, .img-responsive.mobile{
 	display: none;
 }
-.innerblock > img{
+
+.img-responsive.desktop{
 	/* position: relative; */
 	width: 37vw;
 	/* max-width: 100%; */
@@ -330,17 +331,50 @@ button.accordion:hover, button.accordion.is-open {
 	max-height: 5vh;
 }
 
-@media screen and (max-width: 1024px){
+/* @media screen and (width: 768px){ */
+	/* .img-responsive{ */
+		/* display: none; */
+	/* } */
+	
+	/* .img-responsive.mobile{ */
+		/* display: block; */
+		/* width: 65vw; */
+	/* } */
+/* } */
+
+@media screen and (min-width: 1024px) and (max-width: 1419px){
 	.img-responsive{
 		display: none;
 	}
+	
 	.img-responsive.desktop1024{
 		display: block;
 		width: 59vw;
 	}
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (width: 1024px) and (height: 1366px){
+	.img-responsive{
+		display: none;
+	}
+	
+	.img-responsive.desktop1024{
+		display: block;
+		width: 78vw;
+	}
+}
+
+@media screen and (width: 1366px){
+	.img-responsive{
+		display: none;
+	}
+	.img-responsive.desktop1440{
+		display: block;
+		width: 26vw;
+	}
+}
+
+@media screen and (min-width: 1420px){
 	.img-responsive{
 		display: none;
 	}
@@ -350,18 +384,16 @@ button.accordion:hover, button.accordion.is-open {
 	}
 }
 
-@media only screen and (max-device-width: 480px) {
-  .img-responsive {
-    display: none;
-  }
-  .img-responsive.mobile {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .innerblock{
     width: 100%;
+  }
+  .img-responsive{
+	  display: none;
+  }
+  .img-responsive.desktop{
+	  display: block;
+	  width: 100%;
   }
   .blocktest{
   	background-color: white;
