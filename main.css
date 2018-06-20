@@ -70,6 +70,7 @@ body{
   background-color: #231F20;
   color: white;
   font-family: arial;
+  
 }
 a {
   text-decoration: none; }
@@ -247,7 +248,7 @@ button:hover{
 }
 
 #test{
-	margin-bottom: 4%;
+	margin-bottom: 7.5%;
 }
 .innerblock {
 	width: 50%;
@@ -501,11 +502,11 @@ button.accordion:hover, button.accordion.is-open {
 }
 .client-content{
 	display: block;
-  font-size: 2.5vh;
-  line-height: 36px;
+  font-size: 2vh;
   font-weight: 300;
   margin-top: -10px;
   position: relative;
+  line-height: 1.75;
 }
 .client-content{
   padding: 0px 30px;
