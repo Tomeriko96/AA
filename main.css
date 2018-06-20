@@ -781,7 +781,6 @@ input[type=checkbox]:checked ~ #menu{
   /* header{
     margin-bottom: 50%;
   } */
-
     /*Make dropdown links appear inline*/
     header{
       position:relative;
@@ -824,6 +823,9 @@ height: 100%;
   #buttons > div{
     width: 100%;
   }
+  .socmed-icon{
+		margin-left: 3.5%;
+	}
 }
 header{
   height: 10vh;
@@ -856,8 +858,8 @@ footer {
 }
 
 .svg-icon {
-	/* background-color: white; */
   width: 16px;
+  /* margin-left: 5px; */
   height: 16px;
   display: inline-block;
   fill: #828282;
@@ -870,4 +872,8 @@ footer {
 	text-align: center;
 	margin: 0 auto;
 	width: 100%;
+}
+
+.socmed-icon{
+	margin-left: 0.5%;
 }
