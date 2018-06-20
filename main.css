@@ -390,7 +390,7 @@ button.accordion:hover, button.accordion.is-open {
   	/* background-image: url(images/tee4.jpg); */
   	/* background-size: cover; */
   	width: 100%;
-  	margin: 0 auto;
+	margin: 0 auto;
   	overflow: hidden;
   }
   .blockinfo{
