@@ -331,16 +331,6 @@ button.accordion:hover, button.accordion.is-open {
 	max-height: 5vh;
 }
 
-/* @media screen and (width: 768px){ */
-	/* .img-responsive{ */
-		/* display: none; */
-	/* } */
-	
-	/* .img-responsive.mobile{ */
-		/* display: block; */
-		/* width: 65vw; */
-	/* } */
-/* } */
 
 @media screen and (min-width: 1024px) and (max-width: 1419px){
 	.img-responsive{
@@ -374,7 +364,7 @@ button.accordion:hover, button.accordion.is-open {
 	}
 }
 
-@media screen and (min-width: 1420px){
+@media screen and (min-width: 1420px) and (max-width: 1440px){
 	.img-responsive{
 		display: none;
 	}
