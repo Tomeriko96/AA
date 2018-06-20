@@ -648,14 +648,14 @@ input[type=checkbox]:checked ~ #menu{
   }
 } */
 /*Responsive Styles*/
-@media screen and (max-width : 900px){
+@media screen and (max-width : 1100px){
   /* header{
     margin-bottom: 50%;
   } */
     /*Make dropdown links appear inline*/
     header{
       position:relative;
-  z-index:50;
+      z-index:50;
     }
     header > ul {
         position: static;
