@@ -463,8 +463,7 @@ button.accordion:hover, button.accordion.is-open {
 /* posts */
 .post-header{
   margin-bottom: 1%;
-  float: left;
-}
+  }
 
 #test2{
 	height: 100vh;
@@ -473,15 +472,13 @@ button.accordion:hover, button.accordion.is-open {
 }
 .post-title{
   font-size: 4vh;
-  margin-bottom: 2%;
+  /* margin-bottom: 2%; */
   letter-spacing: -1px;
   line-height: 1;
-	margin-top: 5vh;
-	float: left
+	/* margin-top: 5vh; */
 }
 .post-content{
   margin-bottom: 5%;
-  float: left;
 }
 .pagewrapper{
   max-width: -webkit-calc(800px - (30px * 2));
