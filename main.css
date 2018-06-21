@@ -416,7 +416,7 @@ button.accordion:hover, button.accordion.is-open {
   padding-left: 5%;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 1024px) {
 	#test {
 		background-image: url("images/5.png");
 	}
@@ -963,7 +963,8 @@ header{
     position: relative;
     margin-bottom: 25%;
 	  text-align: center;
-	  color: #ffffff;
+	  /* color: #ffffff; */
+    color: black;
 	  font-size: 8vw;
 	}
 #yt{
