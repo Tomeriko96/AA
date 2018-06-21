@@ -484,6 +484,7 @@ button.accordion:hover, button.accordion.is-open {
 }
 .pagewrapper{
   /* max-width: -webkit-calc(800px - (30px * 2)); */
+  max-width: -webkit-calc(800px - (5px * 2));
   max-width: 100%;
   margin: 0 auto;
   padding-right: 5%;
@@ -978,7 +979,7 @@ header > ul > ul li a:hover{
   }
   header{
     position:relative;
-    z-index:50;
+    z-index:100;
   }
   header > ul {
       position: static;
@@ -1007,6 +1008,9 @@ input[type=checkbox]:checked ~ #menu{
 
 /*Responsive Styles*/
 @media screen and (max-width : 1023px){
+  header > ul > li a{
+    font-size: 5vh;
+  }
   /* header{
     margin-bottom: 50%;
   } */
