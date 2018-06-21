@@ -314,7 +314,7 @@ button:hover{
 }
 
 .contact-title{
-	font-size: 3vh;
+	font-size: 4vh;
 	font-weight: 600;
 }
 
@@ -466,7 +466,6 @@ button.accordion:hover, button.accordion.is-open {
 .post-header{
   margin-bottom: 1%;
   }
-
 #test2{
 	height: 100vh;
 	background-image: url("images/1.jpg");
@@ -481,6 +480,7 @@ button.accordion:hover, button.accordion.is-open {
 }
 .post-content{
   margin-bottom: 5%;
+  font-size: 2.5vh;
 }
 .pagewrapper{
   /* max-width: -webkit-calc(800px - (30px * 2)); */
@@ -832,6 +832,11 @@ button.accordion:hover, button.accordion.is-open {
     height: 150%;
   }
 }
+@media screen and (max-width: 1040px) {
+  .methods{
+    width: 100%;
+  }
+}
 @media screen and (max-width: 840px) {
   #contact-us{
     height: 150%;
@@ -1053,6 +1058,9 @@ width: 100%;
 height: 100%;
 }
 @media screen and (max-width : 760px){
+  .post-title{
+    font-size: 6vh;
+  }
   #buttons > div{
     width: 100%;
   }
