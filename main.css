@@ -272,20 +272,15 @@ button:hover{
 }
 
 .img-responsive.desktop{
-	/* position: relative; */
 	width: 37vw;
-	/* max-width: 100%; */
-	/* width: 100%; */
 	z-index: 0;
 	overflow: hidden;
 	/* border: 1px solid red; */
 }
 
 .img-responsive.desktop2{
-	/* position: relative; */
-	width: 100%;
-	/* max-width: 100%; */
-	/* width: 100%; */
+	width: 115%;
+	float: right;
 	z-index: 0;
 	overflow: hidden;
 	/* border: 1px solid red; */
@@ -397,7 +392,7 @@ button.accordion:hover, button.accordion.is-open {
 
 
 
-@media screen and (min-width: 1024px) and (max-width: 1419px){
+@media screen and (min-width: 1024px) and (max-width: 1419px) and (orientation: portrait){
 	.img-responsive{
 		display: none;
 	}
@@ -420,7 +415,7 @@ button.accordion:hover, button.accordion.is-open {
 
 	.img-responsive.desktop1024{
 		display: block;
-		width: 78vw;
+		width: 80vw;
 	}
 }
 
@@ -435,7 +430,7 @@ button.accordion:hover, button.accordion.is-open {
 	.img-responsive.desktop21440{
 		display: block;
 		float: right;
-		width: 80vw;
+		width: 85.5vw;
 	}
 }
 
@@ -450,7 +445,7 @@ button.accordion:hover, button.accordion.is-open {
 	.img-responsive.desktop21440{
 		display: block;
 		float: right;
-		width: 70vw;
+		width: 74vw;
 	}
 }
 @media screen and (max-width: 1080px) {
@@ -470,11 +465,11 @@ button.accordion:hover, button.accordion.is-open {
     margin: 0 auto 1%;
   }
 }
-@media screen and (max-width: 1400px){
-  #hide2{
-    display: none;
-  }
-}
+/* @media screen and (max-width: 1400px){ */
+  /* #hide2{ */
+    /* display: none; */
+  /* } */
+/* } */
 @media screen and (max-width: 1040px) {
   .innerblock2{
     width: 100%;
