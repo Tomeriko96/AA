@@ -34,7 +34,6 @@
 .loader1 {
 	width: 7vh;
 	height: 7vh;
-
 	border-top: 0.5vh solid azure;
 	border-bottom: 0.5vh solid azure;
 	animation: clockwisespin 1s linear 3;
@@ -66,36 +65,34 @@
 
 /* general */
 body{
-  /* background-color: #000; */
   background-color: #231F20;
   color: white;
   font-family: arial;
-
 }
 a {
   text-decoration: none; }
 a:hover {
     text-decoration: underline; }
-.wrapper{
-  height: 6vh;
-}
-.site-nav > div > div{
-  text-align: center;
-}
-.site-nav > div > div{
-  width: 25%;
-  background-color: darkblue;
-}
-.site-header{
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-}
-.page-link{
-  color: #ffffff;
-  font-size: 5vh;
-}
+/* .wrapper{ */
+  /* height: 6vh; */
+/* } */
+/* .site-nav > div > div{ */
+  /* text-align: center; */
+/* } */
+/* .site-nav > div > div{ */
+  /* width: 25%; */
+  /* background-color: darkblue; */
+/* } */
+/* .site-header{ */
+  /* position: absolute; */
+  /* width: 100%; */
+  /* z-index: 1; */
+  /* top: 0; */
+/* } */
+/* .page-link{ */
+  /* color: #ffffff; */
+  /* font-size: 5vh; */
+/* } */
 
 .buttontest{
 	color: white;
@@ -456,24 +453,24 @@ button.accordion:hover, button.accordion.is-open {
 	background-image: url("images/1.jpg");
 	background-size: cover;
 }
-.post-title{
-  font-size: 4vh;
-  margin-bottom: 2%;
-  letter-spacing: -1px;
-  line-height: 1;
-	margin-top: 5vh;
-	float: left
-}
-.post-content{
-  margin-bottom: 5%;
-  float: left;
-}
-.pagewrapper{
-  max-width: -webkit-calc(800px - (30px * 2));
-  margin: 0 auto;
-  padding-right: 5%;
-  padding-left: 5%;
-}
+/* .post-title{ */
+  /* font-size: 4vh; */
+  /* margin-bottom: 2%; */
+  /* letter-spacing: -1px; */
+  /* line-height: 1; */
+	/* margin-top: 5vh; */
+	/* float: left */
+/* } */
+/* .post-content{ */
+  /* margin-bottom: 5%; */
+  /* float: left; */
+/* } */
+/* .pagewrapper{ */
+  /* max-width: -webkit-calc(800px - (30px * 2)); */
+  /* margin: 0 auto; */
+  /* padding-right: 5%; */
+  /* padding-left: 5%; */
+/* } */
 
 @media screen and (max-width: 1024px) {
 	#test {
@@ -507,8 +504,6 @@ button.accordion:hover, button.accordion.is-open {
 	float: left;
 	/* overflow: hidden; */
 }
-
-
 
 @media screen and (min-width: 1024px) and (max-width: 1419px) and (orientation: portrait){
 	.img-responsive{
@@ -854,6 +849,8 @@ button.accordion:hover, button.accordion.is-open {
 /*Strip the ul of padding and list styling*/
 header > ul {
     list-style-type:none;
+	width: 50%;
+	border-bottom: 1px solid lightgray;
     margin:0;
     padding:0;
     position: absolute;
@@ -875,9 +872,10 @@ header > ul > li a {
     text-align: center;
     line-height: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 4vh;
+    font-size: 2vw;
     color: #fff;
-    background: #2f3036;
+    /* background: #2f3036; */
+	background: #231F20;
     text-decoration: none;
 }
 /*Hover state for top level links*/
@@ -964,7 +962,7 @@ header > ul > ul li a:hover{
       display:block;
   }
 header > ul > li{
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
 }
 }
 /*Hide checkbox*/
