@@ -178,11 +178,20 @@ button:hover{
 	font-size: 3vh;
 	font-weight: 600;
 }
+.blockinfo3 > #blocktitle{
+	padding-left: 5%;
+	/* padding-top: 2.5%; */
+	/* padding-bottom: 2.5%; */
+	font-size: 3vh;
+	font-weight: 600;
+}
 
 .blockinfo2 > #blocktext2{
 	text-align: left;
 }
-
+.blockinfo3 > #blocktext3{
+	text-align: left;
+}
 #blocktext{
 	padding-top: 1.5%;
 	padding-left: 7.5%;
@@ -191,6 +200,11 @@ button:hover{
 }
 
 #blocktext2{
+	/* padding-top: 1%; */
+	padding-left: 5%;
+	padding-right: 40%;
+}
+#blocktext3{
 	/* padding-top: 1%; */
 	padding-left: 5%;
 	padding-right: 40%;
@@ -235,6 +249,14 @@ button:hover{
 	margin: 0 auto;
 	overflow: hidden;
 }
+.blocktest3{
+	line-height: 1.75;
+	color: black;
+	width: 100%;
+	background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
 .blockinfo{
 	width: 40%;
 	padding: 5%;
@@ -249,7 +271,12 @@ button:hover{
 	float: right;
 	/* border: 1px solid blue; */
 }
-
+.blockinfo3{
+	padding: 1.5%;
+	width: 50%;
+	float: left;
+	/* border: 1px solid blue; */
+}
 #contact-us{
 	background-color: white;
 	width: 50%;
@@ -336,6 +363,12 @@ button:hover{
 	/* border: 1px solid red; */
 	margin-bottom: -10px;
 	}
+  .innerblock3{
+  	width: 47%;
+  	float: right;
+  	/* border: 1px solid red; */
+  	margin-bottom: -10px;
+  	}
 
 .img-responsive.desktop1024, .img-responsive.desktop1440, .img-responsive.mobile{
 	display: none;
@@ -439,7 +472,7 @@ button.accordion:hover, button.accordion.is-open {
   padding-left: 5%;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 1024px) {
 	#test {
 		background-image: url("images/5.png");
 	}
@@ -563,6 +596,12 @@ button.accordion:hover, button.accordion.is-open {
     text-align: center;
     margin: 0 auto;
   }
+  #blocktext3{
+    width: 90%;
+    padding-right: 0%;
+    text-align: center;
+    margin: 0 auto;
+  }
   .buttontest2{
     position: relative;
   	margin: 0 auto;
@@ -639,6 +678,9 @@ button.accordion:hover, button.accordion.is-open {
     text-align: center;
   }
   #blocktext2{
+    width: 90%;
+  }
+  #blocktext3{
     width: 90%;
   }
   .buttontest2{
@@ -989,7 +1031,8 @@ header{
     position: relative;
     margin-bottom: 25%;
 	  text-align: center;
-	  color: #ffffff;
+	  /* color: #ffffff; */
+    color: black;
 	  font-size: 8vw;
 	}
 #yt{
@@ -1021,7 +1064,7 @@ footer {
   vertical-align: text-top; }
 
 #copyright{
-	/* float: left; */
+	float: left;
 	font-size: 2vh;
 	text-align: center;
 	margin: 0 auto;
