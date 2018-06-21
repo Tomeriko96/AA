@@ -488,6 +488,9 @@ button.accordion:hover, button.accordion.is-open {
   }
   #blocktext2{
     width: 90%;
+    padding-right: 0%;
+    text-align: center;
+    margin: 0 auto;
   }
   .buttontest2{
     position: relative;
