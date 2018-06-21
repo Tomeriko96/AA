@@ -133,6 +133,10 @@ button:hover{
 	transform: scale(1.1,1.1);
 	cursor: pointer;
 }
+.buttontest:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+}
 
 #ThreeButtons{
 	margin-top: 12%;
@@ -246,6 +250,53 @@ button:hover{
 	float: right;
 	/* border: 1px solid blue; */
 }
+
+#contact-us{
+	background-color: white;
+	width: 50%;
+	margin: 0 auto;
+	line-height: 1.75;
+	overflow: hidden;
+}
+
+.contact-block-left{
+	display: block;
+	float: left;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	width: 45%;
+	color: black;
+}
+
+.contact-title{
+	font-size: 3vh;
+	font-weight: 600;
+}
+
+.contact-block-right{
+	display: inline-block;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
+	width: 45%;
+	color: black;
+}
+#form{
+	padding-top: 10%;
+}
+#input{
+	color: grey;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid black;
+}
+
 
 #test{
 	margin-bottom: 7.5%;
