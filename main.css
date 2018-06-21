@@ -492,6 +492,9 @@ button.accordion:hover, button.accordion.is-open {
 }
 
 @media screen and (max-width: 1024px) {
+  h5{
+    font-size: 2vh;
+  }
 	#test {
 		background-image: url("images/5.png");
 	}
