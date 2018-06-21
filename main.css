@@ -297,7 +297,7 @@ button.accordion {
   outline: none;
   text-align: left;
   padding: 15px 20px;
-	font-size: 2vh;
+	font-size: 3vh;
   color: white;
   cursor: pointer;
   transition: background-color 0.2s linear;
@@ -332,6 +332,7 @@ button.accordion:hover, button.accordion.is-open {
 }
 #subject{
   color: white;
+  font-size: 4vh;
 }
 
 /* posts */
@@ -347,6 +348,7 @@ button.accordion:hover, button.accordion.is-open {
 }
 .post-title{
   font-size: 4vh;
+  margin-bottom: 2%;
   letter-spacing: -1px;
   line-height: 1;
 	margin-top: 5vh;
