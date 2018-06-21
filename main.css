@@ -996,7 +996,7 @@ footer {
   vertical-align: text-top; }
 
 #copyright{
-	/* float: left; */
+	float: left;
 	font-size: 2vh;
 	text-align: center;
 	margin: 0 auto;
