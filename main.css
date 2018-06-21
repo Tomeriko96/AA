@@ -880,6 +880,7 @@ button.accordion:hover, button.accordion.is-open {
 }
 /*Strip the ul of padding and list styling*/
 header > ul {
+  text-align: center;
     list-style-type:none;
 	width: 100%;
 	border-bottom: 1px solid lightgray;
@@ -890,7 +891,8 @@ header > ul {
 /*Create a horizontal list with spacing*/
 header > ul > li {
     display:inline-block;
-    float: left;
+    /* float: left; */
+    display: inline-block;
     margin-right: 1px;
 }
 /*Style for menu links*/
