@@ -288,7 +288,9 @@ button:hover{
 }
 #contact-us{
 	background-color: white;
-	width: 50%;
+	/* width: 50%; */
+  max-width: -webkit-calc(1000px - (20px * 2));
+  max-width: calc(1000px - (20px * 2));
 	margin: 0 auto;
 	line-height: 1.75;
 	overflow: hidden;
@@ -481,7 +483,8 @@ button.accordion:hover, button.accordion.is-open {
   margin-bottom: 5%;
 }
 .pagewrapper{
-  max-width: -webkit-calc(800px - (30px * 2));
+  /* max-width: -webkit-calc(800px - (5px * 2)); */
+  max-width: 100%;
   margin: 0 auto;
   padding-right: 5%;
   padding-left: 5%;
@@ -1053,13 +1056,11 @@ height: 100%;
 header{
   height: 10vh;
 }
-#imgh11{
-	  margin-top: -40%;
+#contact-header{
     position: relative;
-    margin-bottom: 25%;
 	  text-align: center;
 	  /* color: #ffffff; */
-    color: black;
+    color: #ffffff;
 	  font-size: 8vw;
 	}
 #yt{
@@ -1080,7 +1081,9 @@ footer {
   /* background-color: white; */
 
 }
-
+.socmed{
+  width: 100%;
+}
 .svg-icon {
   width: 16px;
   /* margin-left: 5px; */
@@ -1092,12 +1095,13 @@ footer {
 
 #copyright{
 	float: left;
-	font-size: 1.5vh;
+	font-size: 2vw;
 	text-align: center;
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
 }
 
 .socmed-icon{
-	margin-left: 0.2%;
+  width: 5%;
+  float: left;
 }
