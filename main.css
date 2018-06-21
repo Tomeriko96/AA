@@ -483,7 +483,7 @@ button.accordion:hover, button.accordion.is-open {
   margin-bottom: 5%;
 }
 .pagewrapper{
-  /* max-width: -webkit-calc(800px - (5px * 2)); */
+  /* max-width: -webkit-calc(800px - (30px * 2)); */
   max-width: 100%;
   margin: 0 auto;
   padding-right: 5%;
