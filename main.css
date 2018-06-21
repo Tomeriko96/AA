@@ -75,26 +75,26 @@ a {
   text-decoration: none; }
 a:hover {
     text-decoration: underline; }
-/* .wrapper{ */
-  /* height: 6vh; */
-/* } */
-/* .site-nav > div > div{ */
-  /* text-align: center; */
-/* } */
-/* .site-nav > div > div{ */
-  /* width: 25%; */
-  /* background-color: darkblue; */
-/* } */
-/* .site-header{ */
-  /* position: absolute; */
-  /* width: 100%; */
-  /* z-index: 1; */
-  /* top: 0; */
-/* } */
-/* .page-link{ */
-  /* color: #ffffff; */
-  /* font-size: 5vh; */
-/* } */
+.wrapper{
+  height: 6vh;
+}
+.site-nav > div > div{
+  text-align: center;
+}
+.site-nav > div > div{
+  width: 25%;
+  background-color: darkblue;
+}
+.site-header{
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+.page-link{
+  color: #ffffff;
+  font-size: 5vh;
+}
 
 .buttontest{
 	color: white;
@@ -168,6 +168,16 @@ button:hover{
 	color: black;
 	text-align: center;
 	font-family: arial;
+}
+
+#blocktitle > p {
+	color: black;
+	text-align: center;
+	font-family: arial;
+}
+.logo2{
+	display: block;
+	margin: 0 auto;
 }
 
 .blockinfo2 > #blocktitle{
@@ -259,8 +269,8 @@ button:hover{
 .blockinfo{
 	width: 40%;
 	padding: 5%;
-	padding-bottom: 7.5%;
-	padding-top: 7.5%;
+	padding-bottom: 3%;
+	padding-top: 3%;
 	float: left;
 	/* border: 1px solid blue; */
 }
@@ -356,6 +366,7 @@ button:hover{
 }
 
 #test{
+	margin-top: 5%;
 	margin-bottom: 7.5%;
 }
 .innerblock {
@@ -386,7 +397,7 @@ button:hover{
 }
 
 .img-responsive.desktop{
-	width: 37vw;
+	width: 38vw;
 	z-index: 0;
 	overflow: hidden;
 	/* border: 1px solid red; */
@@ -460,24 +471,24 @@ button.accordion:hover, button.accordion.is-open {
 	background-image: url("images/1.jpg");
 	background-size: cover;
 }
-/* .post-title{ */
-  /* font-size: 4vh; */
-  /* margin-bottom: 2%; */
-  /* letter-spacing: -1px; */
-  /* line-height: 1; */
-	/* margin-top: 5vh; */
-	/* float: left */
-/* } */
-/* .post-content{ */
-  /* margin-bottom: 5%; */
-  /* float: left; */
-/* } */
-/* .pagewrapper{ */
-  /* max-width: -webkit-calc(800px - (30px * 2)); */
-  /* margin: 0 auto; */
-  /* padding-right: 5%; */
-  /* padding-left: 5%; */
-/* } */
+.post-title{
+  font-size: 4vh;
+  margin-bottom: 2%;
+  letter-spacing: -1px;
+  line-height: 1;
+	margin-top: 5vh;
+	float: left
+}
+.post-content{
+  margin-bottom: 5%;
+  float: left;
+}
+.pagewrapper{
+  max-width: -webkit-calc(800px - (30px * 2));
+  margin: 0 auto;
+  padding-right: 5%;
+  padding-left: 5%;
+}
 
 @media screen and (max-width: 1024px) {
 	#test {
