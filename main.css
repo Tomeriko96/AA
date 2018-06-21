@@ -893,8 +893,13 @@ height: 100%;
   #buttons > div{
     width: 100%;
   }
+  .socmed{
+    width: 100%;
+    float: left;
+  }
   .socmed-icon{
 		margin-left: 3.5%;
+
 	}
 }
 header{
