@@ -305,16 +305,22 @@ button:hover{
 	float: left;
 	/* margin-top: 250px; */
 	display: inline-block;
-	padding: 5%;
+	padding: 4%;
 	/* padding-bottom: 5%; */
 	/* padding-right: 5%; */
-	width: 15%;
+	width: 17%;
 	color: black;
 	text-align: center;
 }
 
+.contact-soc-med{
+	padding: 5%;
+	display: inline-block;
+	overflow: hidden;
+}
+
 .contact-content > p{
-	width: 85%;
+	width: 90%;
 	text-align: justify;
 }
 
@@ -336,10 +342,7 @@ button:hover{
 	border: none;
 	border-bottom: 2px solid black;
 }
-.contact-soc-med{
-	display: inline-block;
-	overflow: hidden;
-}
+
 .svg-icon-contact {
   width: 40px;
   height: 40px;
@@ -483,11 +486,17 @@ button.accordion:hover, button.accordion.is-open {
 
 /* Testimonial */
 #testimonial{
-	/* width: 100%; */
+	/* background-color: white; */
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5%;`
 	/* height: 60vh; */
-  height: 150%;
+  /* height: 150%; */
 	position: relative;
 	overflow: hidden;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
 }
 .clients-belt{
 	width: 25%;
