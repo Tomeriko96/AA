@@ -1024,8 +1024,8 @@ height: 100%;
     width: 100%;
   }
   .socmed{
-    width: 100%;
-    float: left;
+    width: 20%;
+    float: right;
   }
   .socmed-icon{
 		margin-left: 3.5%;
@@ -1057,7 +1057,7 @@ header{
 }
 
 footer {
-  border-top: 1px solid #2B292E;
+  border-top: 1px solid lightgray;
   padding: 5px 0 10px 0;
   /* background-color: white; */
 
@@ -1074,10 +1074,10 @@ footer {
 
 #copyright{
 	float: left;
-	font-size: 2vh;
+	font-size: 1.5vh;
 	text-align: center;
 	margin: 0 auto;
-	width: 100%;
+	width: 80%;
 }
 
 .socmed-icon{
