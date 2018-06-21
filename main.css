@@ -872,7 +872,7 @@ button.accordion:hover, button.accordion.is-open {
 /*Strip the ul of padding and list styling*/
 header > ul {
     list-style-type:none;
-	width: 50%;
+	width: 100%;
 	border-bottom: 1px solid lightgray;
     margin:0;
     padding:0;
@@ -958,6 +958,14 @@ header > ul > ul li a:hover{
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+  }
+}
+@media screen and (min-width:1100px){
+  header {
+    position: relative;
+  }
+  header ul {
+    width: 50%;
   }
 }
 @media screen and (min-width:1000px) and (max-width:1040px){
