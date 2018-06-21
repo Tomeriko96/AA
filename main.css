@@ -1114,7 +1114,8 @@ footer {
   display: inline-block;
   fill: #828282;
   padding-right: 5px;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+}
 
 #copyright{
 	float: left;
@@ -1126,5 +1127,6 @@ footer {
 
 .socmed-icon{
   width: 5%;
-  float: left;
+  /* float: left; */
+  display: inline-block;
 }
