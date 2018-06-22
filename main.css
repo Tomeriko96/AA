@@ -245,6 +245,7 @@ button:hover{
 	position: relative;
 	margin-top: 15%;
 	margin-bottom: 5%;
+	padding-bottom: 5%;
 }
 
 #buttontest4{
@@ -273,6 +274,7 @@ button:hover{
 	line-height: 1.75;
 	color: black;
 	width: 100%;
+	/* padding-bottom: 4%; */
 	background-color: white;
 	margin: 0 auto;
 	overflow: hidden;
@@ -287,6 +289,7 @@ button:hover{
 }
 .blockinfo2{
 	padding: 1.5%;
+	padding-bottom: 5%;
 	width: 47%;
 	float: right;
 	/* border: 1px solid blue; */
@@ -325,8 +328,10 @@ button:hover{
 }
 
 .contact-title{
+	width: 85%;
 	font-size: 2em;
 	font-weight: 600;
+	text-align: center;
 }
 
 .contact-block-right{
@@ -345,7 +350,7 @@ button:hover{
 
 .contact-content > p{
 	width: 85%;
-	text-align: justify;
+	text-align: center;
 }
 
 .soc-title{
@@ -742,7 +747,7 @@ button.accordion:hover, button.accordion.is-open {
   .blockinfo{
   	width: 90vw;
   	padding: 5%;
-  	padding-bottom: 7.5%;
+  	padding-bottom: 2%;
   	padding-top: 7.5%;
   	float: left;
   	/* border: 1px solid blue; */
@@ -761,8 +766,8 @@ button.accordion:hover, button.accordion.is-open {
     position: relative;
   	margin: 0 auto;
   	display: block;
-    width: 100%;
-    font-size: 5vh
+    width: 60%;
+    font-size: 1em;
   }
   .buttonholder{
     width: 80%;
@@ -894,8 +899,8 @@ button.accordion:hover, button.accordion.is-open {
     position: relative;
   	margin: 0 auto;
   	display: block;
-    width: 100%;
-    font-size: 5vh
+    width: 50%;
+    font-size: 1em;
   }
   #buttontest1{
   	position: relative;
@@ -922,6 +927,7 @@ button.accordion:hover, button.accordion.is-open {
 	}
 }
 /*Strip the ul of padding and list styling*/
+
 header > ul {
   text-align: center;
     list-style-type:none;
@@ -938,7 +944,7 @@ header > ul > li {
 }
 /*Style for menu links*/
 label{
-  font-size: 4vh;
+  font-size: 1em;
 }
 header > ul > li a {
     display:block;
@@ -949,7 +955,6 @@ header > ul > li a {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2vw;
     color: #fff;
-    /* background: #2f3036; */
 	background: #231F20;
     text-decoration: none;
 }
@@ -997,7 +1002,7 @@ header > ul > ul li a:hover{
     text-decoration: none;
     color: #fff;
     /* background: #19c589; */
-    	background: linear-gradient(to right, #ff1a1a, #ff8080) ;
+    	background: linear-gradient(#ff1a1a, #231F20) ;
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -1169,6 +1174,11 @@ footer {
 	width: 100%;
 }
 
+.info{
+	font-size: 1em;
+	
+}
+
 .socmed-icon{
   /* width: 5%; */
   display: inline-block;
@@ -1189,6 +1199,7 @@ footer {
 	}
 	.contact-block-right{
 		width: 100%;
+		display: none;
 	}
 	.contact-block-left{
 		width: 100%;
