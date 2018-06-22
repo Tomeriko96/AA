@@ -493,7 +493,9 @@ button.accordion:hover, button.accordion.is-open {
 
 /* posts */
 .post-header{
+	margin: 0 auto;
   margin-bottom: 1%;
+  width: 50%;
   }
 #test2{
 	height: 100vh;
@@ -512,6 +514,7 @@ button.accordion:hover, button.accordion.is-open {
   margin: 0 auto;
   margin-bottom: 5%;
   font-size: 1.4em;
+  width: 50%;
 }
 .post-content > p{
 	font-size: 0.8em;
@@ -753,6 +756,12 @@ button.accordion:hover, button.accordion.is-open {
   }
   .buttonholder{
 	  margin: 0;
+  }
+  .post-header{
+	  width: 100%;
+  }
+  .post-content{
+	  width: 100%;
   }
 }
 @media screen and (max-width: 840px) {
@@ -1043,6 +1052,7 @@ iframe{
 	text-align: center;
 	background: linear-gradient(#ff1a1a, #231F20);
 	margin-bottom: 0%;
+	border: 0;
 
 }
 @media screen and (min-width:1000px){
