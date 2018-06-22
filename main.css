@@ -476,7 +476,7 @@ button.accordion:hover, button.accordion.is-open {
   /* margin-bottom: 2%; */
   letter-spacing: -1px;
   line-height: 1;
-	/* margin-top: 5vh; */
+	margin-top: 5vh;
 }
 .post-content{
   margin-bottom: 5%;
@@ -487,6 +487,7 @@ button.accordion:hover, button.accordion.is-open {
   max-width: -webkit-calc(800px - (5px * 2));
   max-width: 100%;
   margin: 0 auto;
+  /* margin-top: 80%; */
   padding-right: 5%;
   padding-left: 5%;
 }
@@ -891,7 +892,7 @@ header > ul {
 /*Create a horizontal list with spacing*/
 header > ul > li {
     display:inline-block;
-    /* float: left; */
+    float: left;
     display: inline-block;
     margin-right: 1px;
 }
@@ -1012,9 +1013,11 @@ input[type=checkbox]{
     display: none;
 }
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ #menu{
+input[type=checkbox]:checked ~ 
+#menu{
     display: block;
 }
+
 
 /*Responsive Styles*/
 @media screen and (max-width : 1023px){
@@ -1044,6 +1047,7 @@ input[type=checkbox]:checked ~ #menu{
 	header > ul > li{
 		border-bottom: 1px solid lightgrey;
 	}
+	
 }
 .video-container {
 /* margin-top: 5%; */
