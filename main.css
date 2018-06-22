@@ -1166,3 +1166,58 @@ footer {
   /* float: left; */
   display: inline-block;
 }
+/* responsive devices */
+@media (height: 1920px) and (width: 1080px) {
+
+}
+@media (height: 1080px) and (width: 1920px) {
+
+}
+@media (height: 1366px) and (width: 768px) {
+
+}
+@media (height: 768px) and (width: 1366px) {
+
+}
+@media (height: 800px) and (width: 600px) {
+
+}
+@media (height: 600px) and (width: 800px) {
+
+}
+@media (height: 1366px) and (width: 1024px) {
+
+}
+@media (height: 1024px) and (width: 1366px) {
+
+}
+@media (height: 1112px) and (width: 834px) {
+
+}
+@media (height: 834px) and (width: 1112px) {
+
+}
+@media (height: 1024px) and (width: 768px) {
+
+}
+@media (height: 768px) and (width: 1024px) {
+
+}
+@media (height: 736px) and (width: 414px) {
+
+}
+@media (height: 414px) and (width: 736px) {
+
+}
+@media (height: 667px) and (width: 375px) {
+
+}
+@media (height: 375px) and (width: 667px) {
+
+}
+@media (height: 568px) and (width: 320px) {
+
+}
+@media (height: 320px) and (width: 568px) {
+
+}
