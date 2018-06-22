@@ -243,16 +243,18 @@ button:hover{
 
 .buttonholder{
 	position: relative;
-	margin-top: 15%;
+	margin-top: 10%;
 	margin-bottom: 5%;
-	padding-bottom: 5%;
+	/* padding-bottom: 5%; */
 }
 
-#buttontest4{
+#buttontest4, #buttontest5{
 	position: relative;
 	display: block;
 	margin-top: 5%;
 }
+
+
 
 .blocktest{
 	background-color: white;
@@ -579,6 +581,11 @@ button.accordion:hover, button.accordion.is-open {
 		float: right;
 		width: 115vw;
 	}
+	.img-responsive.desktop31024{
+		display: block;
+		/* float: right; */
+		/* width: 115vw; */
+	}
 }
 
 @media screen and (width: 1024px) and (height: 1366px){
@@ -605,6 +612,11 @@ button.accordion:hover, button.accordion.is-open {
 		float: right;
 		width: 85.5vw;
 	}
+	.img-responsive.desktop31440{
+		display: block;
+		float: left;
+		width: 66vw;
+	}
 }
 
 @media screen and (min-width: 1420px) and (max-width: 1440px){
@@ -619,6 +631,11 @@ button.accordion:hover, button.accordion.is-open {
 		display: block;
 		float: right;
 		width: 74vw;
+	}
+	.img-responsive.desktop31440{
+		display: block;
+		float: left;
+		width: 64vw;
 	}
 }
 @media screen and (max-width: 1080px) {
@@ -681,8 +698,14 @@ button.accordion:hover, button.accordion.is-open {
     position: relative;
   	margin: 0 auto;
   	display: block;
-    width: 100%;
-    font-size: 5vh;
+    width: 30%;
+    font-size: 1em;
+  }
+  #buttontest4{
+	  margin-top: 3%;
+  }
+  #buttontest5{
+	  margin-top: 3%;
   }
   .innerblock{
     width: 100%;
@@ -723,6 +746,9 @@ button.accordion:hover, button.accordion.is-open {
   	padding-top: 7.5%;
   	float: left;
   	/* border: 1px solid blue; */
+  }
+  .buttonholder{
+	  margin: 0;
   }
 }
 @media screen and (max-width: 840px) {
@@ -772,6 +798,7 @@ button.accordion:hover, button.accordion.is-open {
   .buttonholder{
     width: 80%;
     margin: 0 auto;
+	padding-bottom: 5%;
   }
 	.clients-belt {
 		/* height: 25%; */
@@ -1047,6 +1074,7 @@ header > ul > ul li a:hover{
   }
   /*Display 'show menu' link*/
   .show-menu {
+	  font-size: 1.5em;
       display:block;
   }
 header > ul > li{
@@ -1067,7 +1095,7 @@ input[type=checkbox]:checked ~
 /*Responsive Styles*/
 @media screen and (max-width : 1023px){
   header > ul > li a{
-    font-size: 5vh;
+    font-size: 1.5em;
   }
   /* header{
     margin-bottom: 50%;
@@ -1087,6 +1115,7 @@ input[type=checkbox]:checked ~
     }
     /*Display 'show menu' link*/
     .show-menu {
+		font-size: 1.25em;
         display:block;
     }
 	header > ul > li{
