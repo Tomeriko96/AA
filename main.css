@@ -690,6 +690,10 @@ button.accordion:hover, button.accordion.is-open {
 		display: block;
 		width: 100%;
 	}
+  .img-responsive.desktop31024{
+		display: block;
+		width: 100%;
+	}
   .blocktest{
   	background-color: white;
   	/* background-image: url(images/tee4.jpg); */
@@ -1040,7 +1044,7 @@ input[type=checkbox]{
     display: none;
 }
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ 
+input[type=checkbox]:checked ~
 #menu{
     display: block;
 }
@@ -1074,7 +1078,7 @@ input[type=checkbox]:checked ~
 	header > ul > li{
 		border-bottom: 1px solid lightgrey;
 	}
-	
+
 }
 .video-container {
 /* margin-top: 5%; */
