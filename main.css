@@ -500,12 +500,9 @@ button.accordion:hover, button.accordion.is-open {
   line-height: 1;
 	margin-top: 5vh;
 }
-.post-title > h1, .post-title > h2{
-	margin: 0 auto;
-}
+
 .post-content{
-	width: 50%;
-	margin: 0 auto;
+  margin: 0 auto;
   margin-bottom: 5%;
   font-size: 1.4em;
 }
@@ -924,8 +921,6 @@ header > ul {
 /*Create a horizontal list with spacing*/
 header > ul > li {
     display:inline-block;
-    float: left;
-    display: inline-block;
     margin-right: 1px;
 }
 /*Style for menu links*/
