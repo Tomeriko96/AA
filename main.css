@@ -1165,7 +1165,9 @@ footer {
 .socmed-icon{
   /* width: 5%; */
   display: inline-block;
+
 }
+
 @media (height: 1920px) and (width: 1080px) {
 	.post-content > p{
 		font-size: 2.5vh;
@@ -1297,56 +1299,19 @@ footer {
   }
   /* nog te doen voor alle paginas: navbar, socmed, copyright */
 }
-@media screen (height: 768px) and (width: 1024px) {
 
-}
-@media (height: 736px) and (width: 414px) {
+@media screen and (max-width: 768px){
+	#yt{
+	  width: 100%;
+	  margin: 0 auto;
+	}
 
-}
-@media only screen
-    and (width : 414px)
-    and (height : 736px)  {
-	.contact-block-right{
-		width: 100%;
+	.yt-title{
+		margin-top: 15%;
+	    font-size: 1.5em;
+		font-weight: 500;
+		letter-spacing: 0.3em;
 	}
-	.contact-block-left{
-		width: 100%;
-	}
-	.contact-soc-med{
-		width: 100%;
-	}
-	.socmed-icon-contact, .soc-title{
-		width: 25%;
-		display: inline;
-		padding-right: 10%;
-	}
-	.soc-title{
-		display: none;
-	}
-}
-@media (height: 667px) and (width: 375px) {
-	.contact-block-right{
-		width: 100%;
-	}
-	.contact-block-left{
-		width: 100%;
-	}
-	.contact-soc-med{
-		width: 100%;
-	}
-	.socmed-icon-contact, .soc-title{
-		width: 25%;
-		display: inline;
-		padding-right: 10%;
-	}
-	.soc-title{
-		display: none;
-	}
-}
-@media (height: 375px) and (width: 667px) {
-
-}
-@media (height: 568px) and (width: 320px) {
 	.contact-block-right{
 		width: 100%;
 	}
@@ -1381,9 +1346,13 @@ footer {
   }
   header{
     height: 5vh;
-  }
-  /* nog te doen voor alle paginas: navbar, socmed, copyright */
 }
-@media (height: 320px) and (width: 568px) {
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 992px){
+
+}
+@media screen and (min-width: 1200px){
 
 }
