@@ -1166,15 +1166,50 @@ footer {
   /* float: left; */
   display: inline-block;
 }
-/* responsive devices */
 @media (height: 1920px) and (width: 1080px) {
-
+  .post-title{
+    font-size: 3vh;
+  }
+  button.accordion {
+    font-size: 1.9em;
+  }
+  button.accordion:after {
+  	font-size: 2em;
+  }
+  .accordion-text {
+  	font-size: 1.8em;
+  }
+  #subject{
+    font-size: 2em;
+  }
+  header{
+    height: 5vh;
+  }
+  /* nog te doen voor alle paginas: navbar, socmed, copyright */
 }
 @media (height: 1080px) and (width: 1920px) {
 
 }
 @media (height: 1366px) and (width: 768px) {
-
+  .post-title{
+    font-size: 3vh;
+  }
+  button.accordion {
+    font-size: 1.9em;
+  }
+  button.accordion:after {
+  	font-size: 2em;
+  }
+  .accordion-text {
+  	font-size: 1.8em;
+  }
+  #subject{
+    font-size: 2em;
+  }
+  header{
+    height: 5vh;
+  }
+  /* nog te doen voor alle paginas: navbar, socmed, copyright */
 }
 @media (height: 768px) and (width: 1366px) {
 
@@ -1216,7 +1251,25 @@ footer {
 
 }
 @media (height: 568px) and (width: 320px) {
-
+  .post-title{
+    font-size: 2em;
+  }
+  button.accordion {
+    font-size: .7em;
+  }
+  button.accordion:after {
+  	font-size: .7em;
+  }
+  .accordion-text {
+  	font-size: .7em;
+  }
+  #subject{
+    font-size: .7em;
+  }
+  header{
+    height: 5vh;
+  }
+  /* nog te doen voor alle paginas: navbar, socmed, copyright */
 }
 @media (height: 320px) and (width: 568px) {
 
