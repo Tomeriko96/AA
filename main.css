@@ -485,7 +485,7 @@ button.accordion:hover, button.accordion.is-open {
 	font-size: 0.8em;
   color: #000;
 }
-#subject{
+.subject{
   color: white;
   margin-top: 1.8em;
   font-size: 1em;
@@ -1293,7 +1293,7 @@ footer {
   .accordion-text {
   	font-size: .7em;
   }
-  #subject{
+  .subject{
     font-size: .7em;
   }
   header{
@@ -1315,7 +1315,7 @@ footer {
   .accordion-text {
   	font-size: 1.5em;
   }
-  #subject{
+  .subject{
     font-size: 1.5em;
   }
   header{
