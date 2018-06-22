@@ -1220,7 +1220,7 @@ footer {
     font-size: .7em;
   }
   header{
-    height: 5vh;
+    height: 7vh;
 }
 @media screen and (min-width: 768px){
 	.post-content > p{
