@@ -870,9 +870,9 @@ button.accordion:hover, button.accordion.is-open {
   }
 }
 @media screen and (max-width: 1040px) {
-  .methods{
+  /* .methods{
     width: 100%;
-  }
+  } */
 }
 @media screen and (max-width: 840px) {
   #contact-us{
@@ -1167,6 +1167,23 @@ footer {
   display: inline-block;
 }
 @media (height: 1920px) and (width: 1080px) {
+	.contact-block-right{
+		width: 100%;
+	}
+	.contact-block-left{
+		width: 100%;
+	}
+	.contact-soc-med{
+		width: 100%;
+	}
+	.socmed-icon-contact, .soc-title{
+		width: 25%;
+		display: inline;
+		padding-right: 10%;
+	}
+	.soc-title{
+		display: none;
+	}
   .post-title{
     font-size: 3vh;
   }
@@ -1191,17 +1208,34 @@ footer {
 
 }
 @media (height: 1366px) and (width: 768px) {
+	.contact-block-right{
+		width: 100%;
+	}
+	.contact-block-left{
+		width: 100%;
+	}
+	.contact-soc-med{
+		width: 100%;
+	}
+	.socmed-icon-contact, .soc-title{
+		width: 25%;
+		display: inline;
+		padding-right: 10%;
+	}
+	.soc-title{
+		display: none;
+	}
   .post-title{
-    font-size: 3vh;
+    font-size: 3em;
   }
   button.accordion {
-    font-size: 1.9em;
+    font-size: 1.7em;
   }
   button.accordion:after {
-  	font-size: 2em;
+  	font-size: 1em;
   }
   .accordion-text {
-  	font-size: 1.8em;
+  	font-size: 1.7em;
   }
   #subject{
     font-size: 2em;
@@ -1226,31 +1260,102 @@ footer {
 @media (height: 1024px) and (width: 1366px) {
 
 }
-@media (height: 1112px) and (width: 834px) {
-
+@media screen (height: 1112px) and (width: 834px) {
+	#copyright{
+		color: red;
+	}
 }
 @media (height: 834px) and (width: 1112px) {
 
 }
 @media (height: 1024px) and (width: 768px) {
-
+	.post-title{
+    font-size: 3em;
+  }
+  button.accordion {
+    font-size: 1.5em;
+  }
+  button.accordion:after {
+  	font-size: 1.5em;
+  }
+  .accordion-text {
+  	font-size: 1.5em;
+  }
+  #subject{
+    font-size: 1.5em;
+  }
+  header{
+    height: 5vh;
+  }
+  /* nog te doen voor alle paginas: navbar, socmed, copyright */
 }
-@media (height: 768px) and (width: 1024px) {
+@media screen (height: 768px) and (width: 1024px) {
 
 }
 @media (height: 736px) and (width: 414px) {
 
 }
-@media (height: 414px) and (width: 736px) {
-
+@media only screen
+    and (width : 414px)
+    and (height : 736px)  {
+	.contact-block-right{
+		width: 100%;
+	}
+	.contact-block-left{
+		width: 100%;
+	}
+	.contact-soc-med{
+		width: 100%;
+	}
+	.socmed-icon-contact, .soc-title{
+		width: 25%;
+		display: inline;
+		padding-right: 10%;
+	}
+	.soc-title{
+		display: none;
+	}
 }
 @media (height: 667px) and (width: 375px) {
-
+	.contact-block-right{
+		width: 100%;
+	}
+	.contact-block-left{
+		width: 100%;
+	}
+	.contact-soc-med{
+		width: 100%;
+	}
+	.socmed-icon-contact, .soc-title{
+		width: 25%;
+		display: inline;
+		padding-right: 10%;
+	}
+	.soc-title{
+		display: none;
+	}
 }
 @media (height: 375px) and (width: 667px) {
 
 }
 @media (height: 568px) and (width: 320px) {
+	.contact-block-right{
+		width: 100%;
+	}
+	.contact-block-left{
+		width: 100%;
+	}
+	.contact-soc-med{
+		width: 100%;
+	}
+	.socmed-icon-contact, .soc-title{
+		width: 25%;
+		display: inline;
+		padding-right: 10%;
+	}
+	.soc-title{
+		display: none;
+	}
   .post-title{
     font-size: 2em;
   }
