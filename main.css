@@ -1038,9 +1038,10 @@ header > ul > ul li a:hover{
 }
 iframe{
 	border: 0;
-#me{
+}
+	#me{
 	text-align: center;
-	background: linear-gradient(#ff1a1a, #231F20) ;
+	background: linear-gradient(#ff1a1a, #231F20);
 	margin-bottom: 0%;
 }
 @media screen and (min-width:1000px){
