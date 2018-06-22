@@ -1167,6 +1167,9 @@ footer {
   display: inline-block;
 }
 @media (height: 1920px) and (width: 1080px) {
+	.post-content > p{
+		font-size: 2.5vh;
+	}
 	.contact-block-right{
 		width: 100%;
 	}
@@ -1208,6 +1211,9 @@ footer {
 
 }
 @media (height: 1366px) and (width: 768px) {
+	.post-content > p{
+		font-size: 2.5vh;
+	}
 	.contact-block-right{
 		width: 100%;
 	}
@@ -1246,7 +1252,6 @@ footer {
   /* nog te doen voor alle paginas: navbar, socmed, copyright */
 }
 @media (height: 768px) and (width: 1366px) {
-
 }
 @media (height: 800px) and (width: 600px) {
 
@@ -1269,6 +1274,9 @@ footer {
 
 }
 @media (height: 1024px) and (width: 768px) {
+	.post-content > p{
+		font-size: 2.5vh;
+	}
 	.post-title{
     font-size: 3em;
   }
