@@ -1079,6 +1079,10 @@ iframe{
   header {
     position: relative;
   }
+	header > ul > li a{
+    font-size: 1.5em;
+	background-color: #231F20;
+  }
   header ul li {
     left: 50%;
     transform: translatex(50%);
