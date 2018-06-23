@@ -3,7 +3,7 @@ function contact() {
 };
 
 var accordions = document.getElementsByClassName("accordion");
-var accordions = document.getElementsByClassName("accordiontest");
+var accordiontest = document.getElementsByClassName("accordiontest");
 
 for (var i = 0; i < accordions.length; i++) {
   accordions[i].onclick = function() {

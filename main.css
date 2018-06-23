@@ -554,6 +554,9 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
   #test2{
     background-image: url("images/1.png");
   }
+  #me{
+	  margin-top: -1%;
+  }
 }
 
 /* Testimonial */
@@ -1013,7 +1016,7 @@ header > ul {
   text-align: center;
     list-style-type:none;
 	width: 100%;
-	border-bottom: 1px solid lightgray;
+	/* border-bottom: 1px solid lightgray; */
     margin:0;
     padding:0;
     position: absolute;
@@ -1091,7 +1094,7 @@ iframe{
 }
 	#me{
 	transform: scale(1,1);
-	margin-top: -5%;
+	/* margin-top: -5%; */
 	text-align: center;
 	background: linear-gradient(#B30000, #231F20);
 	margin-bottom: 0%;
@@ -1116,6 +1119,7 @@ iframe{
   }
   header ul {
     width: 50%;
+	border-bottom: 1px solid lightgray;
   }
   /* .img-responsive.desktop{ */
 	  /* width: 45.5vw; */
@@ -1236,7 +1240,7 @@ height: 100%;
 	}
 }
 header{
-  height: 10vh;
+  height: 1em;
 }
 #contact-header{
     position: relative;
@@ -1370,19 +1374,23 @@ footer {
   }
   header{
     height: 7vh;
+  }
+	#me{
+		margin-top: -2%;
+	}
 }
 @media screen and (min-width: 768px){
 	.post-content > p{
 		font-size: 2.5vh;
 	}
 	.post-title{
-    font-size: 3em;
+    font-size: 1.7em;
   }
   button.accordiontest{
 	  font-size: 1.5em;
   }
   button.accordion {
-    font-size: 1.5em;
+    font-size: 0.8em;
   }
   button.accordion:after {
   	font-size: 1.5em;
@@ -1391,10 +1399,10 @@ footer {
   	font-size: 1.5em;
   }
   .subject{
-    font-size: 1.5em;
+    font-size: 1em;
   }
   header{
-    height: 5vh;
+    height: 1em;
   }
 	.post-content > p{
 		font-size: 2.5vh;
