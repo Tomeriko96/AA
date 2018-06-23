@@ -447,7 +447,7 @@ button:hover{
 button.accordiontest{
 	  width: 100%;
   opacity: 0.8;
-  background: linear-gradient(#ff1a1a, #231F20);
+  background: linear-gradient(#B30000, #231F20);
   border: 1px solid;
   outline: none;
   text-align: left;
@@ -999,6 +999,13 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 	.methods{
 		width: 100%;
 	}
+  #test{
+	  margin-top: 0;
+  }
+  .blocktitle{
+	  margin-top: 4%;
+	  margin-bottom: 2.5%;
+  }
 }
 /*Strip the ul of padding and list styling*/
 
@@ -1086,7 +1093,7 @@ iframe{
 	transform: scale(1,1);
 	margin-top: -5%;
 	text-align: center;
-	background: linear-gradient(#ff1a1a, #231F20);
+	background: linear-gradient(#B30000, #231F20);
 	margin-bottom: 0%;
 	border: 0;
 	border-bottom: 1px solid lightgray;
