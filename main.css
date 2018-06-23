@@ -324,7 +324,7 @@ button:hover{
 	float: left;
 	padding-top: 4%;
 	padding-bottom: 4%;
-	padding-left: 5%;
+	padding-left: 7.5%;
 	width: 70%;
 	color: black;
 }
@@ -527,7 +527,7 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 .post-content{
   margin: 0 auto;
   margin-bottom: 5%;
-  font-size: 1.4em;
+  font-size: 1.3em;
   width: 50%;
 }
 .post-content > p{
@@ -1441,7 +1441,7 @@ footer {
 	.socmed-icon-contact, .soc-title{
 		width: 25%;
 		display: inline;
-		padding-right: 10%;
+		padding-right: 9%;
 	}
 	.soc-title{
 		display: none;
@@ -1450,7 +1450,7 @@ footer {
     font-size: 3vh;
   }
   button.accordion {
-    font-size: 1.9em;
+    font-size: 1em;
   }
   button.accordion:after {
   	font-size: 2em;
