@@ -17,7 +17,9 @@ for (var i = 0; i < accordions.length; i++) {
       // accordion is currently closed, so open it
       content.style.maxHeight = content.scrollHeight + "px";
     }
-  }
+}
+}
+for (var i = 0; i < accordiontest.length; i++) {
   accordiontest[i].onclick = function() {
     this.classList.toggle('is-open');
 
@@ -31,6 +33,7 @@ for (var i = 0; i < accordions.length; i++) {
     }
   }
 }
+
 
 $(document).ready(function() {
     var previousScroll = 0,

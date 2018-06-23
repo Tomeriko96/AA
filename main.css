@@ -219,8 +219,9 @@ button:hover{
 	line-height: 2;
 	font-size: 1em;
 }
-#blocktext2 > ul, #blocktext3 > ul{
-	line-height: 2.5;
+#blocktext2 > ul > li, #blocktext3 > ul > li{
+	line-height: 1.75;
+	margin-bottom: 2.5%;
 }
 
 
@@ -519,20 +520,19 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 .post-title{
   font-size: 1.7em;
   /* margin-bottom: 2%; */
-  letter-spacing: -1px;
+  letter-spacing: 0.1em;
   line-height: 1;
-	margin-top: 5vh;
+	margin-top: 5%;
 }
 
 .post-content{
   margin: 0 auto;
-  margin-bottom: 5%;
-  font-size: 1.3em;
+  margin-bottom: 2%;
+  font-size: 1em;
   width: 50%;
+  line-height: 1.75;
 }
-.post-content > p{
-	font-size: 0.8em;
-}
+
 
 .pagewrapper{
   /* max-width: -webkit-calc(800px - (30px * 2)); */
@@ -650,12 +650,12 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 	.img-responsive.desktop21440{
 		display: block;
 		float: right;
-		width: 85.5vw;
+		width: 62.5vw;
 	}
 	.img-responsive.desktop31440{
 		display: block;
 		float: left;
-		width: 66vw;
+		width: 56vw;
 	}
 }
 
@@ -707,6 +707,12 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 @media screen and (max-width: 1040px) {
   .innerblock2{
     width: 100%;
+  }
+  #first-post-title{
+	  margin-top: 8%;
+  }
+  #second-post-title{
+	  margin-top: 8%;
   }
   .innerblock2 > img{
     margin: 0 auto;
@@ -799,6 +805,7 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
   }
   .post-content{
 	  width: 100%;
+	  margin-bottom: 10%;
   }
 }
 @media screen and (max-width: 840px) {
@@ -878,9 +885,10 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 .client-title{
 	font-style: normal;
   /* font-size: 12px; */
-	font-size: 2vh;
+	font-size: 1em;
   color: gold;
 	font-weight: bold;
+	line-height: 1.75;
 }
 .client-unit{
 	display: block;
@@ -890,7 +898,7 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 }
 .client-content{
   display: block;
-  font-size: 2vh;
+  font-size: 1em;
   width: 75%;
   font-weight: 300;
   margin-top: -10px;
@@ -1003,7 +1011,7 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
 		width: 100%;
 	}
   #test{
-	  margin-top: 0;
+	  margin-top: 5%;
   }
   .blocktitle{
 	  margin-top: 4%;
@@ -1355,13 +1363,14 @@ footer {
 		display: none;
 	}
   .post-title{
-    font-size: 2em;
+    font-size: 1.3em;
+	margin-top: 8%;
   }
   button.accordiontest{
-	  font-size: .7em;
+	  font-size: .8em;
   }
   button.accordion {
-    font-size: .7em;
+    font-size: .8em;
   }
   button.accordion:after {
   	font-size: .7em;
@@ -1370,7 +1379,7 @@ footer {
   	font-size: .7em;
   }
   .subject{
-    font-size: .7em;
+    font-size: 1em;
   }
   header{
     height: 7vh;
@@ -1381,10 +1390,10 @@ footer {
 }
 @media screen and (min-width: 768px){
 	.post-content > p{
-		font-size: 2.5vh;
+		font-size: 1.1em;
 	}
 	.post-title{
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
   button.accordiontest{
 	  font-size: 1.5em;
@@ -1399,14 +1408,11 @@ footer {
   	font-size: 1.5em;
   }
   .subject{
-    font-size: 1em;
+    font-size: 1.3em;
   }
   header{
     height: 1em;
   }
-	.post-content > p{
-		font-size: 2.5vh;
-	}
 	.contact-block-right{
 		width: 100%;
 	}
@@ -1427,7 +1433,10 @@ footer {
 }
 @media screen and (min-width: 992px){
 	.post-content > p{
-		font-size: 2.5vh;
+		font-size: 1.1em;
+	}
+	.post-content > ul{
+		line-height: 1.75;
 	}
 	.contact-block-right{
 		width: 100%;
@@ -1447,7 +1456,7 @@ footer {
 		display: none;
 	}
   .post-title{
-    font-size: 3vh;
+    font-size: 1.6em;
   }
   button.accordion {
     font-size: 1em;
@@ -1463,6 +1472,9 @@ footer {
   }
   header{
     height: 5vh;
+  }
+  #second-post-title{ 
+	font-size: 1.4em;
   }
 }
 @media screen and (min-width: 1200px){
