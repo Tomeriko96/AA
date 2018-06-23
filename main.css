@@ -1055,6 +1055,7 @@ iframe{
 	background: linear-gradient(#ff1a1a, #231F20);
 	margin-bottom: 0%;
 	border: 0;
+	letter-spacing: 0.3em;
 }
 
 @media screen and (min-width:1000px){
