@@ -10,8 +10,10 @@
 </head>
 <body>
   <header>
-  <label for="show-menu" class="show-menu"><button class="accordion" id="me">ADAM&AOKI</button></label>
-    <input type="checkbox" id="show-menu" role="button">
+  <!-- <label for="show-menu" class="show-menu"> -->
+  <!-- </label> -->
+    <!-- <input type="checkbox" id="show-menu" role="button"> -->
+	<button class="accordiontest" id="me">ADAM&AOKI </button>
         <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li>
@@ -23,6 +25,24 @@
         <li><a href="faq.html">FAQ</a></li>
     </ul>
   </header>
+  
+  <script>
+var acc = document.getElementsByClassName("accordiontest");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+  
     <main class="page-content">
       <div class="pagewrapper">
 
