@@ -353,6 +353,7 @@ button:hover{
 .contact-content > p{
 	width: 85%;
 	text-align: center;
+	letter-spacing: 0.05em;
 }
 
 .soc-title{
@@ -470,6 +471,7 @@ button.accordion {
   color: white;
   cursor: pointer;
   transition: background-color 0.2s linear;
+  letter-spacing: 0.05em;
 }
 button.accordion:after, button.accordiontest:after {
   content: "+";
@@ -492,6 +494,7 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
   max-height: 0;
   overflow: hidden;
   transition: max-height 1s ease-in-out;
+  letter-spacing: 0.05em;
 }
 .accordion-text {
 	padding-top: 1%;
@@ -503,6 +506,7 @@ button.accordion:hover, button.accordion.is-open, button.accordiontest:hover, bu
   color: white;
   margin-top: 1.8em;
   font-size: 1em;
+  letter-spacing: 0.05em;
 }
 
 /* posts */
@@ -1442,10 +1446,12 @@ footer {
 }
 @media screen and (min-width: 992px){
 	.post-content > p{
-		font-size: 1.1em;
+		font-size: 1em;
+		letter-spacing: 0.05em;
 	}
 	.post-content > ul{
 		line-height: 1.75;
+		letter-spacing: 0.05em;
 	}
 	.contact-block-right{
 		width: 100%;
