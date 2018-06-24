@@ -1408,13 +1408,13 @@ footer {
 	  font-size: 1.5em;
   }
   button.accordion {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   button.accordion:after {
   	font-size: 1.5em;
   }
   .accordion-text {
-  	font-size: 1.5em;
+  	font-size: 0.9em;
   }
   .subject{
     font-size: 1.3em;
@@ -1474,7 +1474,7 @@ footer {
   	font-size: 2em;
   }
   .accordion-text {
-  	font-size: 1.8em;
+  	font-size: 1em;
   }
   #subject{
     font-size: 2em;
