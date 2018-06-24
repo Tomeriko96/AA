@@ -1,190 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adam &amp; Aoki</title>
-<link rel="stylesheet" href="main.css">
-
-</head>
-<body>
-  <header>
-	<button class="accordiontest" id="me">ADAM&AOKI </button>
-        <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li>
-            <a href="about.html">About</a>
-        </li>
-        <li>
-            <a href="contact.html">Contact</a>
-        </li>
-        <li><a href="faq.html">FAQ</a></li>
-    </ul>
-  </header>
- <!-- Navbar script for mobile users --> 
-  <script>
-var acc = document.getElementsByClassName("accordiontest");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-</script>
-  <!-- Frequently Asked Questions Section -->
-<main class="page-content" aria-label="Content">
-      <div class="pagewrapper">
-
-  <div class="post-header">
-    <h1 class="post-title" id="second-post-title">Frequently Asked Questions</h1>
-  </div>
-
-  <div class="post-content">
-
-    <div class="container">
-      <h2 class="subject">General</h2>
-
-    <button class="accordion">What ages can you style?</button>
-    <div class="accordion-content">
-
-      <p class="accordion-text">We sell t-shirts from age zero and onwards. </p>
-    </div>
-    <button class="accordion">Can I get discount by ordering more products at once?</button>
-    <div class="accordion-content">
-      <p class="accordion-text">
-        When ordering 4 shirts, a 15% discount will be provided on that order.
-      </p>
-    </div>
-    <button class="accordion">Are all shirts the same price?</button>
-    <div class="accordion-content">
-      <p class="accordion-text">
-        Yes, all the shirts have the same pricing.
-      </p>
-    </div>
-    <button class="accordion">What if the size I like to order is sold out?</button>
-    <div class="accordion-content">
-      <p class="accordion-text">
-        An email can be provided to let you know when the product will be back in stock.
-      </p>
-    </div>
-    <button class="accordion">What payment methods do you accept?</button>
-    <div class="accordion-content">
-      <p class="accordion-text">
-        We accept credit card only.
-      </p>
-    </div>
-    <button class="accordion">What is so special about ADAM & AOKI?</button>
-    <div class="accordion-content">
-      <p class="accordion-text">
-        Everything.
-      </p>
-    </div>
-    <button class="accordion">Which sizes are directly available?</button>
-    <div class="accordion-content">
-      <p class="accordion-text">
-        The sizes that are directly available will be shown per product. If a product is out of order, you can choose to receive an email when the product is back in stock.
-      </p>
-    </div>
-  <h2 class="subject">Order & Shipping</h2>
-  <button class="accordion">How many days does it take to deliver?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">When choosing the ‘Fast Delivery’ method, it takes one day to be delivered. With normal shipping it takes 3-5 days.</p>
-  </div>
-  <button class="accordion">It is possible to change the product once ordered?
-</button>
-  <div class="accordion-content">
-    <p class="accordion-text">No, once ordered it is not possible to change the order. It is possible to return the product(s) for free. </p>
-  </div>
-  <button class="accordion">How do I place an order?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">Follow these steps to place an order:
-      <ol style="color: #000;">
-        <li>Visit the product page for an item you wish to buy.</li>
-        <li>Click <b style="color: #000;">Add to Cart.</b> </li>
-        <li>When you've finished adding items to your cart, click on the Shopping Cart icon.</li>
-        <li>If you need to edit the items in your Cart, click on <b style="color: #000;">Save for later</b> or <b style="color: #000;">Delete</b> next to the item in the Cart. </li>
-        <li>Tap <b style="color: #000;">Proceed to checkout </b> and follow the instructions.</li>
-        <li>Review your order information and tap <b style="color: #000;">Place your order</b>  to complete your purchase.</li>
-      </ol>
-    </p>
-  </div>
-  <button class="accordion">Do you ship internationally?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">No. We only ship within the U.S. right now.</p>
-  </div>
-  <button class="accordion">What shipping carriers do you use?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">We use UPS. </p>
-  </div>
-  <button class="accordion">How can I track my order?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">After placing your order, you will receive an email with a tracking code within 24 hours. </p>
-  </div>
-  <button class="accordion">How do returns work?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">Returns are always free. You’ll find a prepaid return label in the package with your order. We’ll follow up 2 days after your delivery to see how you liked your box and to confirm what you’ll be keeping. Make sure you reply to let us know. Then just send back what you don’t want. It’s that easy.</p>
-  </div>
-  <h2 class="subject">Material</h2>
-  <button class="accordion">Does the protection wear off after washing the product multiple times?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">No our shirts are high quality and the protection will definitely not wear off after washing the product. </p>
-  </div>
-  <button class="accordion">Which colors are available?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">All colors imaginable, except for brown. </p>
-  </div>
-  <button class="accordion">What materials do you use?</button>
-  <div class="accordion-content">
-    <p class="accordion-text">89% polyester, 11% elastane.</p>
-  </div>
-  </div></div>
-<script src="main.js"></script>
-
-      </div>
-    </main>
-
-    <footer>
-	<div class="footerinfo">
-	<div class="info">
-		<p id="infotitle">Contact:</p>
-		<p>Address: De Boelelaan 1105, Amsterdam</p>
-		<p>Phone: 020 12 34 56 08</p>
-		<p>E-mail: Info@adam&aoki.com</p>
-	</div>
-  <div class="infosocmed">
-    <div class="socmed">
-	<p id="infosocmedtitle">Social Media:</p>
-      <div class="socmed-icon">
-        <a href="https://instagram.com/Adam&Aoki">
-            <img class="svg-icon" src="images/icons/instagram.svg" alt="Instagram">
-        </a>
-      </div>
-      <div class="socmed-icon">
-        <a href="https://www.facebook.com/Adam&Aoki">
-            <img class="svg-icon" src="images/icons/facebook.svg" alt="Facebook">
-        </a>
-      </div>
-      <div class="socmed-icon">
-        <a href="https://www.twitter.com/Adam&Aoki">
-            <img class="svg-icon" src="images/icons/twitter.svg" alt="Twitter">
-        </a>
-      </div>
-      </div>
-      </div>
-    <div id="copyright">
-      <h5>© 2018 ADAM & AOKI. All rights reserved, ADAM & AOKI</h5>
-    </div>
-	</div>
-</footer>
-
-</body>
-
-</html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Adam &amp; Aoki</title>
+		<link rel="stylesheet" href="main.css">
+		
+	</head>
+	<body>
+		<header>
+			<button class="accordiontest" id="me">ADAM&AOKI </button>
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</header>
+		<!-- Navbar script for mobile users --> 
+		<script>
+			var acc = document.getElementsByClassName("accordiontest");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+						panel.style.display = "none";
+						} else {
+						panel.style.display = "block";
+					}
+				});
+			}
+		</script>
+		<!-- Frequently Asked Questions Section -->
+		<main class="page-content" aria-label="Content">
+			<div class="pagewrapper">
+				
+				<div class="post-header">
+					<h1 class="post-title" id="second-post-title">Frequently Asked Questions</h1>
+				</div>
+				
+				<div class="post-content">
+					
+				<div class="container">
+				<h2 class="subject">General</h2>
+				
+				<button class="accordion">What ages can you style?</button>
+				<div class="accordion-content">
+				
+				<p class="accordion-text">We sell t-shirts from age zero and onwards. </p>
+				</div>
+				<button class="accordion">Can I get discount by ordering more products at once?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">
+				When ordering 4 shirts, a 15% discount will be provided on that order.
+				</p>
+				</div>
+				<button class="accordion">Are all shirts the same price?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">
+				Yes, all the shirts have the same pricing.
+				</p>
+				</div>
+				<button class="accordion">What if the size I like to order is sold out?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">
+				An email can be provided to let you know when the product will be back in stock.
+				</p>
+				</div>
+				<button class="accordion">What payment methods do you accept?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">
+				We accept credit card only.
+				</p>
+				</div>
+				<button class="accordion">What is so special about ADAM & AOKI?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">
+				Everything.
+				</p>
+				</div>
+				<button class="accordion">Which sizes are directly available?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">
+				The sizes that are directly available will be shown per product. If a product is out of order, you can choose to receive an email when the product is back in stock.
+				</p>
+				</div>
+				<h2 class="subject">Order & Shipping</h2>
+				<button class="accordion">How many days does it take to deliver?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">When choosing the ‘Fast Delivery’ method, it takes one day to be delivered. With normal shipping it takes 3-5 days.</p>
+				</div>
+				<button class="accordion">It is possible to change the product once ordered?
+				</button>
+				<div class="accordion-content">
+				<p class="accordion-text">No, once ordered it is not possible to change the order. It is possible to return the product(s) for free. </p>
+				</div>
+				<button class="accordion">How do I place an order?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">Follow these steps to place an order:
+				<ol style="color: #000;">
+				<li>Visit the product page for an item you wish to buy.</li>
+				<li>Click <b style="color: #000;">Add to Cart.</b> </li>
+				<li>When you've finished adding items to your cart, click on the Shopping Cart icon.</li>
+				<li>If you need to edit the items in your Cart, click on <b style="color: #000;">Save for later</b> or <b style="color: #000;">Delete</b> next to the item in the Cart. </li>
+				<li>Tap <b style="color: #000;">Proceed to checkout </b> and follow the instructions.</li>
+				<li>Review your order information and tap <b style="color: #000;">Place your order</b>  to complete your purchase.</li>
+				</ol>
+				</p>
+				</div>
+				<button class="accordion">Do you ship internationally?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">No. We only ship within the U.S. right now.</p>
+				</div>
+				<button class="accordion">What shipping carriers do you use?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">We use UPS. </p>
+				</div>
+				<button class="accordion">How can I track my order?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">After placing your order, you will receive an email with a tracking code within 24 hours. </p>
+				</div>
+				<button class="accordion">How do returns work?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">Returns are always free. You’ll find a prepaid return label in the package with your order. We’ll follow up 2 days after your delivery to see how you liked your box and to confirm what you’ll be keeping. Make sure you reply to let us know. Then just send back what you don’t want. It’s that easy.</p>
+				</div>
+				<h2 class="subject">Material</h2>
+				<button class="accordion">Does the protection wear off after washing the product multiple times?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">No our shirts are high quality and the protection will definitely not wear off after washing the product. </p>
+				</div>
+				<button class="accordion">Which colors are available?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">All colors imaginable, except for brown. </p>
+				</div>
+				<button class="accordion">What materials do you use?</button>
+				<div class="accordion-content">
+				<p class="accordion-text">89% polyester, 11% elastane.</p>
+				</div>
+				</div></div>
+				<script src="main.js"></script>
+				
+				</div>
+				</main>
+				
+				<footer>
+				<div class="footerinfo">
+				<div class="info">
+				<p id="infotitle">Contact:</p>
+				<p>Address: De Boelelaan 1105, Amsterdam</p>
+				<p>Phone: 020 12 34 56 08</p>
+				<p>E-mail: Info@adam&aoki.com</p>
+				</div>
+				<div class="infosocmed">
+				<div class="socmed">
+				<p id="infosocmedtitle">Social Media:</p>
+				<div class="socmed-icon">
+				<a href="https://instagram.com/Adam&Aoki">
+				<img class="svg-icon" src="images/icons/instagram.svg" alt="Instagram">
+				</a>
+				</div>
+				<div class="socmed-icon">
+				<a href="https://www.facebook.com/Adam&Aoki">
+				<img class="svg-icon" src="images/icons/facebook.svg" alt="Facebook">
+				</a>
+				</div>
+				<div class="socmed-icon">
+				<a href="https://www.twitter.com/Adam&Aoki">
+				<img class="svg-icon" src="images/icons/twitter.svg" alt="Twitter">
+				</a>
+				</div>
+				</div>
+				</div>
+				<div id="copyright">
+				<h5>© 2018 ADAM & AOKI. All rights reserved, ADAM & AOKI</h5>
+				</div>
+				</div>
+				</footer>
+				
+				</body>
+				
+				</html>
+								

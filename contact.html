@@ -1,122 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adam &amp; Aoki</title>
-<link rel="stylesheet" type="text/css" href="main.css">
-<script src="main.js"></script>
-</head>
-<body>
-  <header>
-	<button class="accordiontest" id="me">ADAM&AOKI </button>
-        <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li>
-            <a href="about.html">About</a>
-        </li>
-        <li>
-            <a href="contact.html">Contact</a>
-        </li>
-        <li><a href="faq.html">FAQ</a></li>
-    </ul>
-  </header>
-<!-- Navbar script for mobile users -->  
-  <script>
-var acc = document.getElementsByClassName("accordiontest");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
-</script>
-
-<!-- Contact Section -->
-  <section id="contact-us">
-	<div class="contact-block">
-		<div class="contact-block-left">
-			<div class="contact-title">
-				<p>Stay in Touch!</p>
-			</div>
-			<div class="contact-content">
-			<p>
-			Be the first to know of new developments. Join our email list.
-			</p>
-			</div>
-			<div id="form">
-				<form action="/action.php">
-					<input id="input" type="text" name="subscribe" value="info@example.com"><br>
-					<input class="buttontest" type="submit" value="Subscribe">
-				</form>
-			</div>
-		</div>
-		<div class="contact-block-right">
-			<div class="contact-soc-med">
-				<p class="soc-title"> Instagram:</p>
-				<div class="socmed-icon-contact">
-
-					<a href="https://instagram.com/Adam&Aoki">
-							<img class="svg-icon-contact" src="images/icons/instagram.svg" alt="Instagram">
-					</a>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Adam &amp; Aoki</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<header>
+			<button class="accordiontest" id="me">ADAM&AOKI </button>
+			<ul id="menu">
+				<li><a href="index.html">Home</a></li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+				<li><a href="faq.html">FAQ</a></li>
+			</ul>
+		</header>
+		<!-- Navbar script for mobile users -->  
+		<script>
+			var acc = document.getElementsByClassName("accordiontest");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var panel = this.nextElementSibling;
+					if (panel.style.display === "block") {
+						panel.style.display = "none";
+						} else {
+						panel.style.display = "block";
+					}
+				});
+			}
+		</script>
+		
+		<!-- Contact Section -->
+		<section id="contact-us">
+			<div class="contact-block">
+				<div class="contact-block-left">
+					<div class="contact-title">
+						<p>Stay in Touch!</p>
+					</div>
+					<div class="contact-content">
+						<p>
+							Be the first to know of new developments. Join our email list.
+						</p>
+					</div>
+					<div id="form">
+						<form action="/action.php">
+							<input id="input" type="text" name="subscribe" value="info@example.com"><br>
+							<input class="buttontest" type="submit" value="Subscribe">
+						</form>
+					</div>
 				</div>
-				<p class="soc-title"> Facebook:</p>
-				<div class="socmed-icon-contact">
-					<a href="https://www.facebook.com/Adam&Aoki">
-							<img class="svg-icon-contact" src="images/icons/facebook.svg" alt="Facebook">
-					</a>
-				</div>
-				<p class="soc-title"> Twitter:</p>
-				<div class="socmed-icon-contact">
-					<a href="https://www.twitter.com/Adam&Aoki">
-							<img class="svg-icon-contact" src="images/icons/twitter.svg" alt="Twitter">
-					</a>
+				<div class="contact-block-right">
+					<div class="contact-soc-med">
+						<p class="soc-title"> Instagram:</p>
+						<div class="socmed-icon-contact">
+							
+							<a href="https://instagram.com/Adam&Aoki">
+								<img class="svg-icon-contact" src="images/icons/instagram.svg" alt="Instagram">
+							</a>
+						</div>
+						<p class="soc-title"> Facebook:</p>
+						<div class="socmed-icon-contact">
+							<a href="https://www.facebook.com/Adam&Aoki">
+								<img class="svg-icon-contact" src="images/icons/facebook.svg" alt="Facebook">
+							</a>
+						</div>
+						<p class="soc-title"> Twitter:</p>
+						<div class="socmed-icon-contact">
+							<a href="https://www.twitter.com/Adam&Aoki">
+								<img class="svg-icon-contact" src="images/icons/twitter.svg" alt="Twitter">
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</section>
-
-  <footer>
-	<div class="footerinfo">
-	<div class="info">
-		<p id="infotitle">Contact:</p>
-		<p>Address: De Boelelaan 1105, Amsterdam</p>
-		<p>Phone: 020 12 34 56 08</p>
-		<p>E-mail: Info@adam&aoki.com</p>
-	</div>
-  <div class="infosocmed">
-    <div class="socmed">
-	<p id="infosocmedtitle">Social Media:</p>
-      <div class="socmed-icon">
-        <a href="https://instagram.com/Adam&Aoki">
-            <img class="svg-icon" src="images/icons/instagram.svg" alt="Instagram">
-        </a>
-      </div>
-      <div class="socmed-icon">
-        <a href="https://www.facebook.com/Adam&Aoki">
-            <img class="svg-icon" src="images/icons/facebook.svg" alt="Facebook">
-        </a>
-      </div>
-      <div class="socmed-icon">
-        <a href="https://www.twitter.com/Adam&Aoki">
-            <img class="svg-icon" src="images/icons/twitter.svg" alt="Twitter">
-        </a>
-      </div>
-      </div>
-      </div>
-    <div id="copyright">
-      <h5>© 2018 ADAM & AOKI. All rights reserved, ADAM & AOKI</h5>
-    </div>
-	</div>
-</footer>
-</body>
-</html>
+		</section>
+		
+		<footer>
+			<div class="footerinfo">
+				<div class="info">
+					<p id="infotitle">Contact:</p>
+					<p>Address: De Boelelaan 1105, Amsterdam</p>
+					<p>Phone: 020 12 34 56 08</p>
+					<p>E-mail: Info@adam&aoki.com</p>
+					</div>
+					<div class="infosocmed">
+						<div class="socmed">
+							<p id="infosocmedtitle">Social Media:</p>
+							<div class="socmed-icon">
+								<a href="https://instagram.com/Adam&Aoki">
+									<img class="svg-icon" src="images/icons/instagram.svg" alt="Instagram">
+								</a>
+							</div>
+							<div class="socmed-icon">
+								<a href="https://www.facebook.com/Adam&Aoki">
+									<img class="svg-icon" src="images/icons/facebook.svg" alt="Facebook">
+								</a>
+							</div>
+							<div class="socmed-icon">
+								<a href="https://www.twitter.com/Adam&Aoki">
+									<img class="svg-icon" src="images/icons/twitter.svg" alt="Twitter">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="copyright">
+						<h5>© 2018 ADAM & AOKI. All rights reserved, ADAM & AOKI</h5>
+					</div>
+				</div>
+			</footer>
+		</body>
+	</html>
